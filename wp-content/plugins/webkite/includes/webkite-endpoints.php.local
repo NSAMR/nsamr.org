@@ -1,0 +1,19 @@
+<?php
+  global $webkite_dev_mode;
+  $webkite_dev_mode = true;
+
+  //local
+  define( 'WEBKITE_GRAYSKULL_ENDPOINT', 'http://localhost:4568' );
+  define( 'WEBKITE_JAFAR_SCRIPT', '//jafar.bestnerf.com/edge/webkite.min.js' );
+  define( 'WEBKITE_RR_URL', 'http://localhost:1729' );
+  define( 'WEBKITE_THEME_URL', '//iago.bestnerf.com' );
+  define( 'WEBKITE_TOKEN_URI', 'http://localhost:9000' );
+  define( 'WEBKITE_ERROR_URL', 'http://errors.bestnerf.com' );
+  define( 'WEBKITE_THEME_MANIFEST_URL', '//iago.bestnerf.com' );
+  define( 'WEBKITE_ADMIN_URL', '//localhost:4200' );
+  define( 'WEBKITE_IFRAME_ORIGIN', 'http://localhost' );
+
+
+  // leave be
+  define( 'WEBKITE_INTERCOM_ID', 'hwvro4gl' );
+  define( 'WEBKITE_HB_PATH', 'http://localhost/~<your user name>/webkite-wordpress-iframe' );

@@ -1,0 +1,1217 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widgets for SiteOrigin\n"
+"POT-Creation-Date: 2015-11-02 04:58+0530\n"
+"PO-Revision-Date: 2015-11-02 04:59+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/visibility.php:14
+msgid "Visibility - By screen size"
+msgstr ""
+
+#: inc/visibility.php:19 inc/visibility.php:36
+msgid "All"
+msgstr ""
+
+#: inc/visibility.php:20 widgets/ink-alrt-widget/ink-alrt-widget.php:113
+#: widgets/ink-btns-widget/ink-btns-widget.php:141
+msgid "Small"
+msgstr ""
+
+#: inc/visibility.php:21
+msgid "Medium Up"
+msgstr ""
+
+#: inc/visibility.php:22 widgets/ink-blgs-widget/ink-blgs-widget.php:164
+msgid "Medium"
+msgstr ""
+
+#: inc/visibility.php:23
+msgid "Medium Down"
+msgstr ""
+
+#: inc/visibility.php:24 widgets/ink-alrt-widget/ink-alrt-widget.php:115
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:165
+#: widgets/ink-btns-widget/ink-btns-widget.php:143
+msgid "Large"
+msgstr ""
+
+#: inc/visibility.php:26
+msgid "Show by screen size."
+msgstr ""
+
+#: inc/visibility.php:31
+msgid "Visibility - By screen layout"
+msgstr ""
+
+#: inc/visibility.php:37
+msgid "Show Portrait"
+msgstr ""
+
+#: inc/visibility.php:38
+msgid "Show Landscape"
+msgstr ""
+
+#: inc/visibility.php:39
+msgid "Hide Portrait"
+msgstr ""
+
+#: inc/visibility.php:40
+msgid "Hide Landscape"
+msgstr ""
+
+#: inc/visibility.php:42
+msgid "Show based on screen orientation."
+msgstr ""
+
+#: widgets-for-siteorigin.php:39
+msgid "Widgets for SiteOrigin"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:18
+msgid "Inked Alert"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:21
+msgid "Communicate success, warnings, failure or just information."
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:31
+msgid "Message"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:37
+msgid "Show Close Button ?"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:43
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:49
+#: widgets/ink-btns-widget/ink-btns-widget.php:47
+#: widgets/ink-btns-widget/ink-btns-widget.php:52
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:100
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:54
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:67
+msgid "Icon"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:53
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:93
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:155
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:150
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:61
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:116
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:263
+#: widgets/ink-btns-widget/ink-btns-widget.php:71
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:44
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:111
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:80
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:90
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:92
+msgid "Styling"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:67
+#: widgets/ink-btns-widget/ink-btns-widget.php:89
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:106
+msgid "Theme"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:70
+#: widgets/ink-btns-widget/ink-btns-widget.php:92
+msgid "Classic"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:71
+#: widgets/ink-btns-widget/ink-btns-widget.php:93
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:91
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:110
+msgid "Flat"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:72
+#: widgets/ink-btns-widget/ink-btns-widget.php:94
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:90
+msgid "Outline"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:73
+#: widgets/ink-btns-widget/ink-btns-widget.php:95
+msgid "3D"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:74
+#: widgets/ink-btns-widget/ink-btns-widget.php:96
+msgid "Shadow"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:75
+msgid "Modern"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:81
+#: widgets/ink-auds-widget/ink-auds-widget.php:90
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:106
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:131
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:121
+msgid "Background Color"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:87
+#: widgets/ink-auds-widget/ink-auds-widget.php:113
+msgid "Text Color"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:93
+msgid "Close Color"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:99
+#: widgets/ink-btns-widget/ink-btns-widget.php:125
+msgid "Corners"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:102
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:115
+#: widgets/ink-btns-widget/ink-btns-widget.php:128
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:131
+msgid "Sharp"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:103
+#: widgets/ink-btns-widget/ink-btns-widget.php:129
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:132
+msgid "Slightly curved"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:104
+#: widgets/ink-btns-widget/ink-btns-widget.php:130
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:133
+msgid "Highly curved"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:110
+#: widgets/ink-btns-widget/ink-btns-widget.php:137
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:57
+msgid "Size"
+msgstr ""
+
+#: widgets/ink-alrt-widget/ink-alrt-widget.php:114
+#: widgets/ink-btns-widget/ink-btns-widget.php:142
+msgid "Standard"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:18
+msgid "Inked Accordion"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:21
+msgid "Expand and collapse content that is broken into logical sections."
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:31
+#: widgets/ink-auds-widget/ink-auds-widget.php:31
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:30
+#: widgets/ink-vids-widget/ink-vids-widget.php:31
+msgid "Admin Label"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:37
+msgid "Settings"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:43
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:36
+msgid "ID"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:44
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:37
+msgid ""
+"Should be unique on the page. Must begin with alphabets[A-Za-z]. Should not "
+"contain spaces."
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:50
+msgid "Open multiple toggles simultaneously?"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:56
+msgid "Close toggle only if another is open ?"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:62
+msgid "Closed Toggle Icon"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:67
+msgid "Open Toggle Icon."
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:75
+msgid "Toggles"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:76
+msgid "Toggle"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:86
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:30
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:30
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:54
+msgid "Title"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:92
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:60
+msgid "Open by default ?"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:98
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:72
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:74
+msgid "Content"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:122
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:119
+msgid "Icon Location"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:125
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:135
+#: widgets/ink-auds-widget/ink-auds-widget.php:167
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:410
+#: widgets/ink-btns-widget/ink-btns-widget.php:80
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:194
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:112
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:123
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:122
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:130
+msgid "Left"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:126
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:137
+#: widgets/ink-auds-widget/ink-auds-widget.php:169
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:412
+#: widgets/ink-btns-widget/ink-btns-widget.php:81
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:196
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:114
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:125
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:123
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:132
+msgid "Right"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:132
+#: widgets/ink-auds-widget/ink-auds-widget.php:164
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:191
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:120
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:127
+msgid "Text Alignment"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:136
+#: widgets/ink-auds-widget/ink-auds-widget.php:168
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:411
+#: widgets/ink-btns-widget/ink-btns-widget.php:82
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:195
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:113
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:124
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:131
+msgid "Center"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:143
+msgid "Gap between toggles?"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:149
+msgid "Title Background Color"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:155
+msgid "Title Background Hover Color"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:161
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:363
+msgid "Title Color"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:167
+msgid "Title Hover Color"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:173
+msgid "Icon Open Color"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:179
+msgid "Icon Close Color"
+msgstr ""
+
+#: widgets/ink-ardn-widget/ink-ardn-widget.php:185
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:343
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:167
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:136
+msgid "Content Background Color"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:18
+msgid "Inked Audio"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:21
+msgid "Play self or externally hosted audios."
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:37
+msgid "Audio"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:42
+msgid "Audio Type"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:45
+#: widgets/ink-vids-widget/ink-vids-widget.php:45
+msgid "Self Hosted"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:46
+#: widgets/ink-vids-widget/ink-vids-widget.php:46
+msgid "oEmbed"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:57
+msgid "Audio File"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:69
+msgid "Background Image"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:81
+msgid "oEmbed Audio URL"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:100
+msgid "Background Opacity"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:123
+#: widgets/ink-vids-widget/ink-vids-widget.php:89
+msgid "Controls Theme"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:126
+#: widgets/ink-vids-widget/ink-vids-widget.php:92
+msgid "Light"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:127
+#: widgets/ink-vids-widget/ink-vids-widget.php:93
+msgid "Dark"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:137
+msgid "Audio Name"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:146
+msgid "Artist"
+msgstr ""
+
+#: widgets/ink-auds-widget/ink-auds-widget.php:155
+msgid "Album"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:18
+msgid "Inked Blog"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:21
+msgid "A widget to display Blog posts."
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:36
+msgid "Select Posts"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:41
+msgid "Post Format Icons"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:47
+msgid "Standard Icon"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:52
+msgid "Aside Icon"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:57
+msgid "Gallery Icon"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:62
+msgid "Link Icon"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:67
+msgid "Image Icon"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:72
+msgid "Quote Icon"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:76
+msgid "Status Icon"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:80
+msgid "Video Icon"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:84
+msgid "Audio Icon"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:88
+msgid "Chat Icon"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:99
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:101
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:318
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:338
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:358
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:371
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:384
+msgid "Please specify units, eg: px, em, rem, ..."
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:112
+msgid "Background Corners"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:116
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:114
+msgid "Curved"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:117
+#: widgets/ink-btns-widget/ink-btns-widget.php:131
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:115
+msgid "Round"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:123
+msgid "Show Icon"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:126
+msgid "Always"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:127
+msgid "On Hover"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:137
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:117
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:42
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:98
+msgid "Design"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:143
+msgid "Layout"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:146
+msgid "Image above the content"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:147
+msgid "Image to the left of content"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:148
+msgid "Image to the right of content"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:149
+msgid "Image as content background"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:150
+msgid "No Image"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:160
+msgid "Image Size"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:163
+msgid "Thumbnail"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:166
+msgid "Full"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:175
+msgid ""
+"You can change the default size widths by going to <b>Settings</b> &rarr; "
+"<b>Media</b>."
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:180
+msgid "Make Image fullwidth for small screens ?"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:193
+msgid "Show Format Icon ?"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:206
+msgid "Show Excerpt ?"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:212
+msgid "Excerpt Length"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:218
+msgid "After Excerpt"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:224
+msgid "Byline above Title"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:226
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:233
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:240
+msgid ""
+"Use %date% : The Date, %category% : List of Categories, %author% : Author "
+"name with link, %comments% : Number of Comments."
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:231
+msgid "Byline below Title"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:238
+msgid "Byline after Excerpt"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:245
+msgid "Text between Categories"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:251
+msgid "Columns"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:269
+msgid "Image Expands on hover ?"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:282
+msgid "Image Overlay Color"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:295
+msgid "Image Overlay Opacity"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:304
+msgid "Choose a number between 0 and 1. 0 : Transparent, 1: Opaque"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:309
+msgid "Text distance from the left"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:323
+msgid "Gap between posts ?"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:336
+msgid "Gap Below Posts"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:356
+msgid "Title Font Size"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:369
+msgid "Excerpt Font Size"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:376
+msgid "Excerpt Color"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:382
+msgid "Byline Font Size"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:389
+msgid "Byline Color"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:395
+msgid "Byline Links Color"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:401
+#: widgets/ink-btns-widget/ink-btns-widget.php:103
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:148
+msgid "Highlight Color"
+msgstr ""
+
+#: widgets/ink-blgs-widget/ink-blgs-widget.php:407
+msgid "Text Align"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:18
+msgid "Inked Buttons"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:21
+msgid "The power of click!"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:31
+msgid "Button text"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:36
+msgid "Destination URL"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:42
+msgid "Open in a new window"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:57
+msgid "Location"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:60
+msgid "Before Text"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:61
+msgid "After Text"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:62
+msgid "Above Text"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:77
+msgid "Button Alignment"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:83
+msgid "Full Width"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:97
+msgid "Deline"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:108
+msgid "Base Color"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:114
+msgid "Use hover effect ?"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:120
+msgid "Use click effect ?"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:140
+msgid "Tiny"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:152
+msgid "Attributes and SEO"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:157
+msgid "Button ID"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:158
+msgid "An ID attribute allows you to target this button in Javascript."
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:163
+msgid "Title attribute"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:164
+msgid "Adds a title attribute to the button link."
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:169
+msgid "Onclick"
+msgstr ""
+
+#: widgets/ink-btns-widget/ink-btns-widget.php:170
+msgid "Run this Javascript when the button is clicked. Ideal for tracking."
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:18
+msgid "Inked Divider"
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:21
+msgid "Draw seperators or create gaps in your page."
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:31
+msgid "Type"
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:34
+msgid "Gap"
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:35
+msgid "Single Line"
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:36
+msgid "Double Line"
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:37
+msgid "Dotted Line"
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:38
+msgid "Dashed Line"
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:50
+msgid "Color"
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:51
+msgid "Select the color of your divider."
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:58
+msgid ""
+"Define the thickness of the divider. Please specify units, eg: px, em, rem, ..."
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:64
+msgid "Width"
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:65
+msgid "Please specify units, eg: px, em, rem, %, ..."
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:71
+msgid "Margin Top"
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:72
+msgid "Spacing above the divider. Please specify units, eg: px, em, rem, ..."
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:78
+msgid "Margin Bottom"
+msgstr ""
+
+#: widgets/ink-dvdr-widget/ink-dvdr-widget.php:79
+msgid "Spacing below the divider. Please specify units, eg: px, em, rem, ..."
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:18
+msgid "Inked Person"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:21
+msgid "Getting to know you better."
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:31
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:31
+msgid "Name"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:37
+msgid "Person"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:43
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:43
+msgid "Image"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:44
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:44
+msgid "Choose image"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:45
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:45
+msgid "Set image"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:52
+msgid "Designation"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:58
+msgid "About"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:67
+msgid "Social"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:73
+msgid "Open Link in"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:76
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:67
+msgid "Same Window"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:77
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:68
+msgid "New Window"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:83
+msgid "Profiles"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:84
+msgid "Profile"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:94
+msgid "Link"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:120
+msgid "Basic"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:121
+msgid "Icons over image"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:122
+msgid "About over image"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:128
+msgid "Image Corners"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:134
+msgid "Circle"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:140
+msgid "Image Hover Overlay Color"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:146
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:143
+msgid "Image Hover Opacity"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:161
+msgid "Icon Hover Color"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:173
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:138
+msgid "Name Color"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:179
+msgid "Designation Color"
+msgstr ""
+
+#: widgets/ink-prsn-widget/ink-prsn-widget.php:185
+msgid "About Color"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:18
+msgid "Inked Portfolio"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:21
+msgid "Show off your work."
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:36
+msgid "Select Projects"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:37
+msgid ""
+"Make sure that <b>Custom Post Types</b> module in active in Jetpack. Choose "
+"<b>Projects</b> under post type"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:48
+msgid "Enable Sorting ?"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:55
+msgid "This will appear above the image, on hover."
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:60
+msgid "Number of Columns"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:63
+msgid "1"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:64
+msgid "2"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:65
+msgid "3"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:66
+msgid "4"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:67
+msgid "5"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:68
+msgid "6"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:86
+msgid "Filter List Theme"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:89
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:113
+msgid "Minimal"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:97
+msgid "Filter List Color"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:103
+msgid "Filter List Highlight Color"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:109
+msgid "Filter List Position"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:137
+msgid "Image Hover Color"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:145
+msgid "Choose a value between 0 and 1. 0: transparent 1: opaque"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:156
+msgid "Project Name Color"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/ink-ptfl-widget.php:162
+msgid "Project Types Color"
+msgstr ""
+
+#: widgets/ink-ptfl-widget/tpl/folio.php:18
+msgid "ALL"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:18
+msgid "Inked Tabs"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:21
+msgid "Organize and navigate multiple documents in a single container."
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:43
+msgid "Tabs"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:44
+msgid "Tab"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:62
+msgid "Check this for only one of the tabs."
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:96
+msgid "Oritentation"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:99
+msgid "Horizontal"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:100
+msgid "Vertical"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:109
+msgid "Boxed"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:111
+msgid "Underline"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:112
+msgid "Overline"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:124
+msgid "Above"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:130
+msgid "Tab Background Color"
+msgstr ""
+
+#: widgets/ink-tabb-widget/ink-tabb-widget.php:142
+msgid "Basic Color"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:18
+msgid "Inked Testimonial"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:21
+msgid "Highlight what your customers think of you."
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:37
+msgid "Testimonial"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:52
+msgid "Company"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:58
+msgid "Company Link"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:64
+msgid "Target"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:101
+msgid "Image Above"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:102
+msgid "Image Below"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:103
+msgid "Image Left"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:104
+msgid "Image Right"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:110
+msgid "Image Shape"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:113
+msgid "Square"
+msgstr ""
+
+#: widgets/ink-tsml-widget/ink-tsml-widget.php:144
+msgid "Company Color"
+msgstr ""
+
+#: widgets/ink-vids-widget/ink-vids-widget.php:18
+msgid "Inked Video"
+msgstr ""
+
+#: widgets/ink-vids-widget/ink-vids-widget.php:21
+msgid "Play self or externally hosted videos."
+msgstr ""
+
+#: widgets/ink-vids-widget/ink-vids-widget.php:37
+msgid "Video"
+msgstr ""
+
+#: widgets/ink-vids-widget/ink-vids-widget.php:42
+msgid "Video Type"
+msgstr ""
+
+#: widgets/ink-vids-widget/ink-vids-widget.php:56
+msgid "Video File"
+msgstr ""
+
+#: widgets/ink-vids-widget/ink-vids-widget.php:68
+msgid "Cover Image"
+msgstr ""
+
+#: widgets/ink-vids-widget/ink-vids-widget.php:80
+msgid "oEmbed Video URL"
+msgstr ""
+
+#: widgets/ink-vids-widget/ink-vids-widget.php:103
+msgid "Controller Background Color"
+msgstr ""
+
+#: widgets/ink-vids-widget/ink-vids-widget.php:113
+msgid "Controller Background Opacity"
+msgstr ""

@@ -1,0 +1,52 @@
+@import "../../mixins/less/mixins";
+
+@bg: transparent;
+@img-r: 0;
+@name: '';
+@company: '';
+@design: 'above';
+
+.iw-so-testimonial {
+	background: @bg;
+
+	.iw-so-testimonial-img img {
+		border-radius: @img-r;
+		.img-design() when (@design = above) { margin-bottom: 25px; }
+		.img-design() when (@design = below) { margin-top: 25px; }
+		.img-design();
+	}
+
+	.iw-so-testimonial-company {
+		color: @company;
+		a {
+			color: @company;
+		}
+	}
+
+	.iw-so-testimonial-message p {
+		font-size: 1.3em;
+		line-height: 1.75;
+	}
+
+	.iw-so-testimonial-name {
+		font-size: 1.1em;
+		font-weight: bold;
+		color: @name;
+	}
+
+	.iw-so-testimonial-company {
+		font-size: 0.9em;
+		font-weight: lighter;
+		letter-spacing: 2px;
+	}
+
+	&.design-left,
+	&.design-right {
+		.clearfix();
+
+		.iw-so-testimonial-message p {
+			margin-top: 0;
+		}
+	}
+
+}

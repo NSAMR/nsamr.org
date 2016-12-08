@@ -1,0 +1,357 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial;	
+	color: #000000;
+	font-size: 12px;
+  }
+ .text_logo .header {
+  background: black none repeat scroll 0 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: auto;
+  margin: 0 auto;
+  max-width: 85%;
+  padding-bottom: 0;
+  padding-top: 0;
+  width: 85%;
+}
+.text_logo .header .logo_text {
+  font-size: 35px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  
+}
+p, img, h1, h2, h3, h4, ol, ul, li, a
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+	transition: all 0.4s ease 0s;	
+}
+p
+{
+    line-height: 18px;
+} 
+h2
+{
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 42px;
+}
+h3
+{
+   font-size: 20px;
+    font-weight: 400;
+}
+h4
+{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 2px;
+    text-align: center;
+    text-transform: uppercase;	
+}
+.timer_box p
+{
+    font-weight: bold;
+    text-align: center;
+}
+.wrapper, .canvas960, .inline_block, .header
+{
+	width: 100%;
+	transition: all 0.4s ease 0s;	
+}
+.canvas960
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.inline_block
+{
+	display: inline-block;	
+}
+
+.header {
+  background: rgba(0, 0, 0, 0) url("images/corner_1.png") no-repeat scroll right top;
+  box-sizing: border-box;
+  float: right;
+  min-height: 81px;
+  margin-right: -14px;
+  max-width: 885px;
+  padding: 0 23px 0 26px;
+  position: relative;
+  text-align: right;
+}
+
+#acx_csma_content_below_timer {
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
+#csma_master_logo {
+  float: right;
+  margin-top: 13px;
+  width: 144px;
+  margin-bottom: 10px;
+}
+
+#csma_master_logo > img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.acx_csma_content_div{
+width:100%;
+height:auto;
+}
+.mg_top
+{
+    margin: 60px 0;	
+}
+.timer_holder, .form
+{
+    float: left;
+    width: 50%;
+}
+#acx_above_timer_html
+{
+	float: left;
+	width: 46%;
+	margin:10px 0px 10px 30px;
+}
+.timer_holder
+{
+    margin: 0 0 0 30px;
+    width: 46%;
+}
+.timer_box
+{
+    float: left;
+    margin-right: 20px;
+	transition: all 0.4s ease 0s;		
+}
+.timer_box ul
+{
+    display: inline-block;
+    margin: 0 0 10px;	
+}
+.timer_box ul li
+{
+    display: block;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 4px 0 0;
+    padding: 8px 18px;	
+}
+.days
+{
+    margin: -3px 0 0 -18px;
+    max-width: none;
+    width: 100%;	
+}
+.days ul li
+{
+    font-size: 70px;
+    margin: 0;	
+}
+.last_one, .days ul
+{
+	margin: 0;
+}
+.day_text
+{
+    font-size: 12px !important;
+    margin: 0 0 0 -10px !important;
+    padding: 0 !important;	
+}
+input
+{
+    border: 0 none;
+    color: #7a7a7a;
+    max-width: 381px;
+    padding: 19px;
+    width: 82%;
+}
+form
+{
+    margin: 32px 0 0;	
+}
+.submit
+{
+    background: url("images/submit.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    margin: 0 0 0 -133px;
+    max-width: 138px;
+    padding: 24px 24px 25px;
+    text-align: right;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+}
+.submit:hover
+{
+	color: #ffe44c;
+    margin: 0 0 0 -136px;	
+}
+.yellow
+{
+    padding: 68px 6% 50px;
+    width: 88%;
+}
+.text_box
+{
+    background: url("images/divider.jpg") repeat-x scroll center top rgba(0, 0, 0, 0);
+    margin: 30px 0 0;
+    padding: 30px 0 0;	
+}
+.text_box p
+{
+	text-align: center;
+}
+.footer
+{
+    background: url("images/corner_2.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    height: 81px;
+    margin: -12px 0 0 -12px;
+    padding: 0;
+    position: relative;
+}
+.footer p, .text_box p
+{
+	font-size: 12px;
+}
+.footer p
+{
+    margin: 0 0 4px;
+    text-transform: uppercase;
+}
+.footer ul
+{
+    padding: 21px 0 0 25px;
+}
+.footer ul li
+{
+    display: inline-block;
+    height: 16px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.day_text {
+    padding: 62px 0 0 !important;
+}
+.acx_csma_social_icons {
+  background: #333 none repeat scroll 0 0;
+  display: block;
+  float: left;
+  height: 16px;
+  width: 16px;
+}
+
+.acx_csma_social_icons > img
+{
+	display:block;
+	margin:auto;
+	max-width:100%;
+	vertical-align:middle;
+}
+.csma_fb:hover
+{
+	background:#3b5998;
+}
+
+.csma_twtr:hover
+{
+	background:#55acee;
+}
+
+.csma_lnkn:hover
+{
+	background:#0077b5;
+}
+
+
+#acx_csma_loading
+{
+    background: rgba(1, 1, 1, 0.5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index: 1000;
+}
+#acx_csma_loading .load_1
+{
+    background: url("images/loading.gif") no-repeat scroll 50% 50% transparent;
+    border-radius: 20px 20px 20px 20px;
+    height: 100px;
+    margin-left: -40px;
+	margin-top : -40px;
+	top:40%;
+	left:50%;
+	position: absolute;
+    opacity: 0.6;
+    width: 100px;
+}
+/********************************************
+media query 
+********************************************/
+@media screen and (max-width: 980px)
+{
+.header, .footer 
+{
+    background: none repeat scroll 0 0 #020202;
+    margin: 0;
+    max-width: none;
+    padding: 0;
+    text-align: center;
+}
+.timer_holder, .form 
+{
+    text-align: center;
+    width: 100%;
+}
+.timer_holder
+{
+    margin: 40px 0 0;	
+}
+.timer_box	
+{
+    margin: 0 0 20px;
+    width: 100%;
+}
+.timer_box ul 
+{
+    text-align: center;
+}
+.timer_box ul li 
+{
+    display: inline-flex;
+    float: none;
+}
+.timer_box  p
+{
+	text-align: center;
+}
+.mg_top
+{
+    margin: 0;	
+}
+}
+#acx_csma_success ,#acx_csma_invalid ,#acx_csma_error
+{
+  background: #fff none repeat scroll 0 0;
+  padding: 10px 5px;
+  text-align: center;
+  border-radius: 4px;
+  max-width:400px;
+  margin:0 auto;
+}

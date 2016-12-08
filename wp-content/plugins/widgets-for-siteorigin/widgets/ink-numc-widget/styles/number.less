@@ -1,0 +1,20 @@
+@title: inherit;
+@num: inherit;
+@num-size: inherit;
+@t-pos: below;
+
+.iw-so-number-title {
+	color: @title;
+	.position() when (@t-pos = above) { margin-top: 0; }
+	.position() when (@t-pos = below) { margin-bottom: 0; }
+	.position();
+}
+.iw-so-number-count {
+	color: @num;
+	font-size: @num-size;
+	line-height: @num-size;
+	margin: 0;
+}
+.iw-so-number {
+	padding: 30px 15px;
+}

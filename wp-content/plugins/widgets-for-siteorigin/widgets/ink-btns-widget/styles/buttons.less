@@ -1,0 +1,217 @@
+@import "../../mixins/less/mixins";
+
+@radius: 0em;
+@text: #fff;
+@size: standard;
+@button: #333;
+@align: center;
+@icon: left;
+@theme: flat;
+
+.iw-so-button-base {
+
+	.btn-align() when (@align = left) {
+		text-align: left
+	}
+	.btn-align() when (@align = right) {
+		text-align: right
+	}
+	.btn-align() when (@align = center) {
+		text-align: center
+	}
+	.btn-align();
+
+	.iw-so-button {
+
+		border-radius: @radius;
+		color: @text;
+
+		.btn-size() when (@size = tiny) {
+			font-size: 0.75em;
+			padding: 0.625em 1.25em;
+		}
+		.btn-size() when (@size = small) {
+			font-size: 0.9em;
+			padding: 0.875em 1.75em;
+		}
+		.btn-size() when (@size = standard) {
+			font-size: 1.2em;
+			padding: 1em 2em ;
+		}
+		.btn-size() when (@size = large) {
+			font-size: 1.75em;
+			padding: 1.125em 2.25em;
+		}
+		.btn-size();
+
+		.full-width() when (@align = full) { padding-left: 0; padding-right: 0; width: 100%; }
+		.full-width();
+
+		.btn-theme() when (@theme = classic) {
+			.gradient(@button, darken(@button, 15%), @button);
+			border: 1px solid;
+			border-color: darken(@button, 8%) darken(@button, 10%) darken(@button, 13%) darken(@button, 10%);
+		}
+		.btn-theme() when (@theme = flat) {
+			background: @button;
+			border: 1px solid @button;
+		}
+		.btn-theme() when (@theme = outline) {
+			background: transparent;
+			border: 2px solid @button;
+			color: @button;
+		}
+		.btn-theme() when (@theme = threed) {
+			background: @button;
+			box-shadow: 0px 5px 0px 0px darken(@button, 10%);
+		}
+		.btn-theme() when (@theme = shadow) {
+			.drop-shadow(1px, 1px, 4px, 0.4);
+			background: @button;
+			border: 1px solid @button;
+		}
+		.btn-theme() when (@theme = deline) {
+			background: @button;
+			border: 2px solid @button;
+		}
+		.btn-theme();
+
+		[class^="sow-icon-"] {
+
+			.icon-size() when (@size = tiny) {
+				font-size: 0.9em;
+			}
+			.icon-size() when (@size = small) {
+				font-size: 1.1em;
+			}
+			.icon-size() when (@size = standard) {
+				font-size: 1.5em;
+			}
+			.icon-size() when (@size = large) {
+				font-size: 2em;
+			}
+			.icon-size();
+
+			height: 1em;
+			width: auto;
+
+			.icon-loc() when (@icon = left) {
+				float: left;
+				margin: -0.1em 0.75em -0.2em 0em;
+			}
+			.icon-loc() when (@icon = right) {
+				float: right;
+				margin: -0.1em 0em -0.2em 0.75em;
+			}
+			.icon-loc() when (@icon = above) {
+				margin: -0.1em auto 0.5em auto;
+			}
+			.icon-loc();
+
+			display: block;
+
+		}
+
+		&:hover {
+
+			.dft-theme() when (@theme = classic) {
+				color: @text;
+			}
+			.dft-theme() when (@theme = flat) {
+				color: @text;
+			}
+			.dft-theme() when (@theme = outline) {
+				color: @button;
+			}
+			.dft-theme() when (@theme = threed) {
+				color: @text;
+			}
+			.dft-theme() when (@theme = shadow) {
+				color: @text;
+			}
+			.dft-theme() when (@theme = deline) {
+				color: @text;
+			}
+			.dft-theme();
+
+		}
+
+		&.iw-so-button-hover {
+
+			&:hover {
+
+				color: @text;
+
+				.btn-hover() when (@theme = classic) {
+					.gradient(lighten(@button, 2%), darken(@button, 20%), lighten(@button, 2%));
+					border-color: darken(@button, 4%) darken(@button, 6%) darken(@button, 18%) darken(@button, 6%);
+					color: @text;
+				}
+				.btn-hover() when (@theme = flat) {
+					background: darken(@button, 7.5%);
+					border-color: darken(@button, 7.5%);
+				}
+				.btn-hover() when (@theme = outline) {
+					background: @button;
+					color: @text;
+				}
+				.btn-hover() when (@theme = threed) {
+					background: lighten(@button, 10%);
+				}
+				.btn-hover() when (@theme = shadow) {
+					background: lighten(@button, 5%);
+					border-color: lighten(@button, 5%);
+					.drop-shadow(1px, 1px, 8px, 0.4);
+				}
+				.btn-hover() when (@theme = deline) {
+					color: @button;
+					background: transparent;
+				}
+				.btn-hover();
+
+			}
+
+		}
+
+		&.iw-so-button-click {
+
+			&:active {
+
+				.btn-active() when (@theme = classic) {
+					.box-shadow(inset 0 3px 25px darken(@button, 25%));
+				}
+				.btn-active() when (@theme = flat) {
+					background: darken(@button, 15%);
+					border-color: darken(@button, 15%);
+				}
+				.btn-active() when (@theme = outline) {
+					background: lighten(@button, 10%);
+					border-color: lighten(@button, 10%);
+					color: @text;
+				}
+				.btn-active() when (@theme = threed) {
+					-webkit-transform: translate(0, 5px);
+					-moz-transform: translate(0, 5px);
+					-ms-transform: translate(0, 5px);
+					-o-transform: translate(0, 5px);
+					transform: translate(0, 5px);
+					box-shadow: 0px 1px 0px 0px;
+				}
+				.btn-active() when (@theme = shadow) {
+					background: darken(@button, 4%);
+					border-color: darken(@button, 4%);
+				}
+				.btn-active() when (@theme = deline) {
+					color: lighten(@button, 20%);
+					border-color: lighten(@button, 20%);
+					background: transparent;
+				}
+				.btn-active();
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,52 @@
+@icon-color: #fff;
+@icon-size: 25px;
+@icon-bg: #333;
+@icon-hover: '';
+@dot-color: #333;
+@dot-size: 18px;
+@dot-position: below;
+
+.iw-so-slider {
+	.slick-arrow {
+		font-size: @icon-size;
+		color: @icon-color;
+		background-color: @icon-bg;
+
+		&:hover {
+			opacity: 1;
+		}
+
+		.arrow-hide() when ( @icon-hover = 1 ) {
+			visibility: hidden;
+		}
+		.arrow-hide();
+	}
+
+	&:hover {
+		.slick-arrow {
+			.arrow-show() when ( @icon-hover = 1 ) {
+				visibility: visible;
+			}
+			.arrow-show();
+		}
+	}
+
+	.slick-dots {
+		li {
+			button:before {
+				color: @dot-color;
+				font-size: @dot-size;
+			}
+
+			&.slick-active button:before {
+				color: @dot-color;
+			}
+		}
+
+		.dot-pos() when ( @dot-position = bottom ) {
+			position: relative;
+			bottom: 47px;
+		}
+		.dot-pos();
+	}
+}

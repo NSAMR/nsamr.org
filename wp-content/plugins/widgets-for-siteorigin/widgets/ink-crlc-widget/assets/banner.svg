@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>Circle Counter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic" result="blur"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Circle-Counter" transform="translate(30.000000, 30.000000)">
+            <rect id="BG" stroke="#C0392B" stroke-width="30" fill="#E74C3C" filter="url(#filter-1)" x="0" y="0" width="240" height="240"></rect>
+            <g id="Group" transform="translate(55.000000, 55.000000)">
+                <circle id="Oval-3" stroke="#F7EBE8" stroke-width="4" cx="65.5" cy="65.5" r="62.5"></circle>
+                <text id="%" font-family="OpenSans-Light, Open Sans" font-size="32" font-weight="300" fill="#F7EBE8">
+                    <tspan x="53" y="74">%</tspan>
+                </text>
+                <path d="M65.5,0.5 L65.5,5.5" id="Line" stroke="#E74C3C" stroke-linecap="square"></path>
+                <path d="M5.5,66.5 L0.5,66.5" id="Line" stroke="#E74C3C" stroke-linecap="square"></path>
+                <path d="M61.2013043,1.7311079 C61.2013043,1.7311079 52.675262,2.03734556 40.3242199,7.36391627 C34.9339633,9.68854464 29.6969495,13.4963704 24.7557117,17.4498838 C19.8735469,21.3561326 16.0196961,27.6205295 12.419824,33.7225593 C8.81995187,39.8245891 8.12861187,41.4628315 7.02782689,45.141745 C5.38892125,50.6191016 4.85169531,65.682974 4.85169531,65.682974" id="curve" stroke="#E74C3C" stroke-width="7" stroke-linecap="square" transform="translate(33.026500, 33.707041) rotate(3.000000) translate(-33.026500, -33.707041) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

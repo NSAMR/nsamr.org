@@ -1,0 +1,58 @@
+.iw-so-audio-hosted {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.iw-so-audio-meta {
+  font-style: italic; }
+
+.iw-so-audio-file {
+  width: 100%;
+  padding: 5em 3em !important; }
+  .iw-so-audio-file .mejs-container {
+    background: transparent; }
+    .iw-so-audio-file .mejs-container .mejs-controls {
+      background: transparent; }
+      .iw-so-audio-file .mejs-container .mejs-controls .mejs-time-rail span,
+      .iw-so-audio-file .mejs-container .mejs-controls .mejs-time-rail a {
+        height: 2px !important; }
+      .iw-so-audio-file .mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+      .iw-so-audio-file .mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+        height: 2px !important;
+        top: 13px; }
+  .iw-so-audio-file .mejs-time-total {
+    margin: 9px 5px !important; }
+  .iw-so-audio-file.iw-so-player-light .mejs-time-loaded {
+    background: #fff;
+    opacity: 0.5; }
+  .iw-so-audio-file.iw-so-player-light .mejs-time-current {
+    background: #fff !important; }
+  .iw-so-audio-file.iw-so-player-light .mejs-time-total {
+    border: none;
+    background: rgba(255, 255, 255, 0.2); }
+  .iw-so-audio-file.iw-so-player-light .mejs-controls .mejs-time-rail .mejs-time-float {
+    background: transparent;
+    border: none;
+    color: #fff; }
+  .iw-so-audio-file.iw-so-player-dark .mejs-time-loaded {
+    background: #333 !important;
+    opacity: 0.4; }
+  .iw-so-audio-file.iw-so-player-dark .mejs-time-current,
+  .iw-so-audio-file.iw-so-player-dark .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    background: #333 !important; }
+  .iw-so-audio-file.iw-so-player-dark .mejs-time-total {
+    border: none;
+    background: transparent; }
+  .iw-so-audio-file.iw-so-player-dark .mejs-controls .mejs-button button {
+    background-image: url("../../../img/controls-dark.svg") !important; }
+  .iw-so-audio-file.iw-so-player-dark .mejs-controls .mejs-time-rail .mejs-time-float {
+    background: transparent;
+    border: none;
+    color: #333; }
+  .iw-so-audio-file.iw-so-player-dark .mejs-controls .mejs-time-rail .mejs-time-float-corner {
+    border-color: #333 transparent transparent; }
+  .iw-so-audio-file.iw-so-player-dark .mejs-controls .mejs-time {
+    color: #333; }
+  .iw-so-audio-file.iw-so-player-dark .mejs-controls .mejs-time-rail .mejs-time-total,
+  .iw-so-audio-file.iw-so-player-dark .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    background: rgba(51, 51, 51, 0.2); }

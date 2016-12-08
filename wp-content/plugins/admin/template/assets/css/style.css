@@ -1,0 +1,303 @@
+/* Nifty Coming soon and under construction page CSS Document */
+
+body {
+	overflow: hidden;
+}
+
+p {
+	color: #000000 !important;
+}
+
+.nifty-main-wrapper div#preloader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	background: #FFFFFF url('../images/loading.gif') no-repeat center center;
+}
+.nifty-logo {
+	width:200px !important;
+	margin:80px auto 80px;
+}
+.nifty-coming-soon-message {
+	font-family:  'Roboto Slab', sans-serif;
+	font-size:4.2em;
+	color: rgba(147,26,55,1);
+	margin:30px auto 30px;
+	text-shadow:#333 1px 1px 2px;
+	-webkit-text-stroke: 0.20px;
+}
+
+.maintextwrapper {
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 100%;
+	height: auto;
+}	
+
+.nifty-inform {
+	font-family:  'Roboto Slab', sans-serif;
+	font-size:0.8em;
+	color:#000000;
+	margin:30px auto 10px;
+	-webkit-text-stroke: 0.10px;
+}
+.nifty-contact-details {
+	margin:30px auto 10px;
+}
+.nifty-content-full {
+	margin:80px auto 10px;
+	text-align:center
+}
+.nifty-content-full p {
+	font-size:0.8em;
+}
+.nifty-error {
+	color:#FFFFFF;
+	text-decoration:underline;
+	font-size:0.9em;
+}
+.nifty-success {
+	color:#FFFFFF;
+	font-size:0.9em;
+}
+#slider-navigation {
+	margin-top:20px;
+	}
+#slider-navigation a {
+	margin:5px 5px 5px 5px;
+	font-size:0.9em;
+	outline:none;
+}
+
+::selection {
+	color:#333; 
+	background:#FFFFFF;
+}
+
+::-moz-selection {
+	color:#333; 
+	background:#FFFFFF;
+}
+
+/* Timer CSS - you can customize overall look of the timer below */
+
+#days, #hours, #minutes, #seconds {
+	font-size:4em;
+	text-shadow:#333 1px 1px 2px;
+	-webkit-text-stroke: 0.25px;
+}
+.timer-item {
+	width:95%;
+	color:#000000;
+	opacity: 1 !important;
+	padding:25px 5px 25px 5px;
+	margin:auto;
+	text-align:center;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	
+}
+.timer-bottom {
+	font-size:0.8em;
+	padding:15px 0px 0px 0px;
+	-webkit-text-stroke: 0.10px;
+}
+
+
+
+/* jQuery Vegas CSS */
+
+.vegas-loading {
+	display:none !important;
+}
+
+.vegas-background {
+	-ms-interpolation-mode: bicubic;
+	image-rendering: optimizeQuality;
+	max-width: none !important; /* counteracts global img modification by twitter bootstrap library */
+	z-index: -2;
+}
+.vegas-overlay, .vegas-background {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Additional media queries */
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+.nifty-logo {
+ margin:10px auto 10px;
+}
+.nifty-coming-soon-message {
+ font-size:1.1em;
+ margin:20px auto 20px;
+ color: rgba(147,26,55,1);
+}
+.nifty-inform {
+ font-size:0.6em;
+}
+.nifty-content-full {
+ margin:2px auto 2px;
+}
+#days, #hours, #minutes, #seconds {
+ font-size:1.3em;
+}
+.timer-bottom {
+ font-size:0.5em;
+ padding:6px 0px 6px 0px;
+}
+.timer-item {
+ padding:5px 0px 0px 0px;
+ border:none;
+}
+#slider-navigation a {
+ margin-left:5px;
+ font-size:0.9em;
+ outline:none;
+}
+.nifty-error {
+ font-size:0.6em;
+}
+.nifty-success {
+ font-size:0.6em;
+}
+}
+ @media screen and (min-width: 320px) and (max-width: 480px) {
+.nifty-logo {
+margin:20px auto 20px;
+}
+.nifty-coming-soon-message {
+font-family: 'Raleway', sans-serif;
+font-size:1.4em;
+color: rgba(147,26,55,1);
+margin:30px auto;
+}
+.nifty-inform {
+font-family:  'Roboto Slab', sans-serif;
+font-size:0.9em;
+color:#FFFFFF;
+margin:5px auto 5px;
+}
+.nifty-content-full {
+margin:10px auto 10px;
+}
+#days, #hours, #minutes, #seconds {
+font-size:1.8em;
+text-shadow:#555 1px 1px 2px;
+}
+.nifty-content-full {
+ margin:25px auto 5px;
+}
+.timer-bottom {
+font-size:0.9em;
+padding:10px 0px 10px 0px;
+}
+.nifty-timer-item {
+padding:15px 0px 0px 0px;
+border:none;
+}
+#slider-navigation a {
+margin-left:10px;
+font-size:0.9em;
+outline:none;
+}
+.nifty-error {
+color:#FFFFFF;
+font-size:0.9em;
+}
+.nifty-success {
+color:#FFFFFF;
+font-size:0.9em;
+}
+}
+ @media screen and (min-width: 480px) and (max-width: 600px) {
+.nifty-logo {
+margin:12px auto 12px;
+}
+.nifty-coming-soon-message {
+font-family: 'Raleway', sans-serif;
+font-size:1.8em;
+color: rgba(147,26,55,1);
+margin:30px auto;
+}
+.nifty-inform {
+font-family: 'Raleway', sans-serif;
+font-size:0.9em;
+color:#FFFFFF;
+margin:5px auto 5px;
+}
+#days, #hours, #minutes, #seconds {
+font-size:1.9em;
+text-shadow:#555 1px 1px 2px;
+}
+.nifty-timer-item {
+padding:15px 0px 0px 0px;
+border:none;
+}
+.nifty-content-full {
+ margin:25px auto 5px;
+}
+}
+ @media screen and (min-width: 600px) and (max-width: 768px) {
+.nifty-logo {
+margin:40px auto 40px;
+}
+.nifty-coming-soon-message {
+font-family: 'Raleway', sans-serif;
+font-size:2.6em;
+color: rgba(147,26,55,1);
+margin:50px auto;
+}
+.inform {
+font-family: 'Raleway', sans-serif;
+font-size:0.9em;
+color:#FFFFFF;
+margin:10px auto 10px;
+}
+#days, #hours, #minutes, #seconds {
+font-size:2.8em;
+text-shadow:#555 1px 1px 2px;
+}
+.timer-item {
+padding:15px 0px 0px 0px;
+border:none;
+}
+.content-full {
+margin:50px auto 10px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 960px) {
+.logo {
+margin:30px auto 30px;
+}
+.coming-soon-message {
+font-family: 'Raleway', sans-serif;
+font-size:2.1em;
+color: rgba(147,26,55,1);
+margin:50px auto;
+}
+.inform {
+font-family: 'Raleway', sans-serif;
+font-size:0.9em;
+color:#FFFFFF;
+margin:5px auto 5px;
+}
+#days, #hours, #minutes, #seconds {
+font-size:2.8em;
+text-shadow:#555 1px 1px 2px;
+}
+.content-full {
+margin:40px auto 10px;
+}
+}

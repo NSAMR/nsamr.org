@@ -1,0 +1,56 @@
+.iw-so-media-box .iw-so-media-box-media .oembed-flex-frame {
+  height: 0;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  padding-bottom: 67.5%;
+  padding-top: 1.5625rem;
+  position: relative;
+  padding-bottom: 56.34%;
+  padding-top: 0; }
+  .iw-so-media-box .iw-so-media-box-media .oembed-flex-frame iframe,
+  .iw-so-media-box .iw-so-media-box-media .oembed-flex-frame object,
+  .iw-so-media-box .iw-so-media-box-media .oembed-flex-frame embed,
+  .iw-so-media-box .iw-so-media-box-media .oembed-flex-frame frame {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0; }
+
+.iw-so-media-box .iw-so-media-box-media img {
+  max-width: 100%; }
+
+.iw-so-media-box .iw-so-media-box-media [class^="sow-icon-"] {
+  padding: 20px; }
+
+.iw-so-media-box .iw-so-media-box-text .iw-so-media-box-title,
+.iw-so-media-box .iw-so-media-box-text .iw-so-media-box-content {
+  padding: 0 10%; }
+
+.iw-so-media-box .iw-so-media-box-button .iw-so-media-box-button-base::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.iw-so-media-box .iw-so-media-box-button .iw-so-media-box-btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: normal;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  font-size: 1em;
+  padding: 0.875em 1.75em; }
+  @media only screen and (min-width: 40.0625em) {
+    .iw-so-media-box .iw-so-media-box-button .iw-so-media-box-btn {
+      display: inline-block; } }

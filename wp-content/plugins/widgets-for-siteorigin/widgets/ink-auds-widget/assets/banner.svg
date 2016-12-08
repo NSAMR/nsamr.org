@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>Audio</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic" result="blur"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Audio" transform="translate(30.000000, 30.000000)">
+            <rect id="BG" stroke="#C0392B" stroke-width="30" fill="#E74C3C" filter="url(#filter-1)" x="0" y="0" width="240" height="240"></rect>
+            <g id="Group" transform="translate(35.000000, 52.000000)" stroke="#F7EBE8" stroke-width="4">
+                <path d="M28.4553425,127.5 C35.3134932,127.5 46.422642,127.492636 51.2382026,123.337891 C57.0832475,118.294931 55.9456115,108.327252 55.9456115,100 C55.9456115,92.1796887 56.4767266,82.6869204 51.2382026,77.6796875 C46.3029864,72.9623708 35.8202548,72.5 28.4553425,72.5 C13.2728862,72.5 0.965073625,84.8121694 0.965073625,100 C0.965073625,115.187831 13.2728862,127.5 28.4553425,127.5 Z" id="Oval-4"></path>
+                <path d="M141.455343,127.5 C148.313493,127.5 159.422642,127.492636 164.238203,123.337891 C170.083247,118.294931 168.945611,108.327252 168.945611,100 C168.945611,92.1796887 169.476727,82.6869204 164.238203,77.6796875 C159.302986,72.9623708 148.820255,72.5 141.455343,72.5 C126.272886,72.5 113.965074,84.8121694 113.965074,100 C113.965074,115.187831 126.272886,127.5 141.455343,127.5 Z" id="Oval-4-Copy" transform="translate(141.500000, 100.000000) scale(-1, 1) translate(-141.500000, -100.000000) "></path>
+                <path d="M141.5,72.5 C141.5,72.5 140.851277,40.0060231 131.181282,24.6243591 C128.178279,19.8476059 115.05329,2.90014584 110.213285,2.02739906 C104.614446,1.01781949 86.5,1.5 86.5,1.5" id="Line" stroke-linecap="square"></path>
+                <path d="M83.5,72.5 C83.5,72.5 82.8512774,40.0060231 73.181282,24.6243591 C70.1782792,19.8476059 57.0532896,2.90014584 52.2132854,2.02739906 C46.6144458,1.01781949 28.5,1.5 28.5,1.5" id="Line-Copy" stroke-linecap="square" transform="translate(56.000000, 36.942457) scale(-1, 1) translate(-56.000000, -36.942457) "></path>
+                <path d="M45,77 C45,77 40.8919272,93.176455 40.8919272,101 C40.8919272,109.176455 45,125 45,125" id="Line" stroke-linecap="square"></path>
+                <path d="M129.108073,77 C129.108073,77 125,93.176455 125,101 C125,109.176455 129.108073,125 129.108073,125" id="Line-Copy-2" stroke-linecap="square" transform="translate(127.054036, 101.000000) scale(-1, 1) translate(-127.054036, -101.000000) "></path>
+                <path d="M77.21875,1.37617183 L94.0027351,1.37617183" id="Line" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

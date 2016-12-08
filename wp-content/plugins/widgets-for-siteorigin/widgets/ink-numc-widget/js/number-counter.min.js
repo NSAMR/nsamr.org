@@ -1,0 +1,1 @@
+!function(t){t(document).ready(function(){t(".iw-so-number-timer").waypoint({offset:function(){return Waypoint.viewportHeight()-100},handler:function(){t(this.element).countTo(),this.destroy()}})})}(jQuery);

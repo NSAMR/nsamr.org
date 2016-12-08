@@ -1,0 +1,18 @@
+.video-flex-frame {
+  height: 0;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  padding-bottom: 67.5%;
+  padding-top: 1.5625rem;
+  position: relative;
+  padding-bottom: 56.34%;
+  padding-top: 0; }
+  .video-flex-frame iframe,
+  .video-flex-frame object,
+  .video-flex-frame embed,
+  .video-flex-frame frame {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0; }

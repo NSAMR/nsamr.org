@@ -1,0 +1,95 @@
+@gap: 0;
+@icon: right;
+@title-bg: transparent;
+@cont-bg: transparent;
+@title: #333;
+@icon-open: #333;
+@icon-close: #333;
+@title-h: #666;
+@title-h-bg: transparent;
+@type-th: 'minimal';
+@type-clr: #95a5a6;
+@type-hl: #2c3e50;
+@type-pos: 'center';
+
+.iw-so-acrdn-terms {
+
+	.type-pos() when (@type-pos = left) {
+		float: left;
+	}
+	.type-pos() when (@type-pos = right) {
+		float: right;
+	}
+	.type-pos();
+
+	li {
+
+		a {
+			color: @type-clr;
+
+			.type-theme() when (@type-th = minimal) {
+				padding-left: 2px;
+			}
+			.type-theme() when (@type-th = outline) {
+				border: 2px solid transparent;
+			}
+			.type-theme();
+
+			&:hover,
+			&:focus {
+				color: @type-hl;
+			}
+			&.active {
+
+				.type-hl() when (@type-th = outline) {
+					border-color: @type-hl;
+					color: @type-hl;
+				}
+				.type-hl() when (@type-th = minimal) {
+					color: @type-hl;
+				}
+				.type-hl() when (@type-th = flat) {
+					background: @type-hl;
+					color: @type-clr;
+				}
+				.type-hl();
+			}
+
+		}
+	}
+}
+
+.iw-so-accordion .iw-so-acc-item {
+	.gap() when (@gap = 1) { margin-bottom: 12px; }
+	.gap();
+	.iw-so-acc-title {
+		background: @title-bg;
+		color: @title;
+
+		.icon-padding() when (@icon = right) { padding-right: 3.5em; }
+		.icon-padding() when (@icon = left) { padding-left: 3.5em; }
+		.icon-padding();
+
+		&:hover{
+			background: @title-h-bg;
+			color: @title-h;
+		}
+
+		span {
+			.icon-pos() when (@icon = right) { right: 7px; }
+			.icon-pos() when (@icon = left) { left: 7px; }
+			.icon-pos();
+		}
+
+		.iw-so-tgl-close {
+			color: @icon-close;
+		}
+
+		.iw-so-tgl-open {
+			color: @icon-open;
+		}
+	}
+	.iw-so-acc-content {
+		background: @cont-bg;
+	}
+}

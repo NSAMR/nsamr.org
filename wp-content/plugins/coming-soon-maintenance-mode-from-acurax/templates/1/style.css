@@ -1,0 +1,261 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Calibri";	
+	color: #7a7a7a;
+	font-size: 14px;
+}
+@font-face 
+{
+	font-family: "Calibri";
+	src: url('fonts/547485352-calibri.eot');
+	src: url('fonts/547485352-calibri.eot?#iefix') format('embedded-opentype'),
+	url('fonts/547485352-calibri.svg#Calibri') format('svg'),
+	url('fonts/547485352-calibri.woff') format('woff'),
+	url('fonts/547485352-calibri.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.logo_text
+{
+font-size: 45px;
+}
+.text_logo #header
+{
+padding-top: 30px;
+}
+p, img, h1, h2, h3, h4, ol, ul, li, a
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+	transition: all 0.4s ease 0s;	
+}
+p
+{
+    font-size: 18px;	
+} 
+h2
+{
+    font-size: 33px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h3
+{
+ 
+    font-size: 22px;
+    font-weight: normal;
+}
+h4
+{
+   
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 12px;
+    text-transform: uppercase;	
+}
+#header, h2, h3, .timer_head, .timer_box p
+{
+    text-align: center;	
+}
+.wrapper, .canvas960, .inline_block, .timer_head
+{
+	width: 100%;
+	transition: all 0.4s ease 0s;	
+}
+
+.canvas960
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+#header
+{
+    padding: 80px 0 0;
+}
+#header img {
+  display: block;
+  margin: 0 auto;
+  max-width: 231px;
+}
+.inline_block
+{
+	display: inline-block;	
+}
+.timer_head
+{
+   
+    padding: 20px 0;	
+}
+.acx_csma_content_div{
+width:100%;
+height:auto;
+}
+.mg_top
+{
+    margin: 25px 0 0;	
+}
+.timer_holder
+{
+ 
+    padding: 30px 3% 15px 7%;
+    width: 90%;
+}
+.timer_box
+{
+    float: left;
+    margin-right: 30px;
+	transition: all 0.4s ease 0s;		
+}
+
+.timer_box ul
+{
+	
+}
+.timer_box ul li
+{
+    background: url("images/timer_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    font-size: 48px;
+    font-weight: normal;
+    height: 97px;
+    margin: 14px -10px 0 0;
+    padding: 5px 0 0 25px;
+    width: 69px;	
+	position:relative;
+	
+}
+.last_one
+{
+	margin-right: 0;
+}
+.form
+{
+    padding: 50px 5%;
+    text-align: center;
+    width: 90%;
+}
+input
+{
+    border: 0 none;
+    color: #7a7a7a;
+    margin: 0 0 15px;
+    max-width: 300px;
+    padding: 10px;
+    width: 93%;
+}
+.submit
+{ 
+    cursor: pointer;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-transform: uppercase;	
+	transition: all 0.3s ease 0s;	
+	margin: 0;
+	width:auto;
+}
+
+.footer
+{
+    margin: 0 0 80px;
+    padding: 12px 0;	
+}
+.footer p
+{
+	font-size: 12px;
+}
+
+#acx_csma_top_1
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#acx_csma_loading
+{
+    background: rgba(1, 1, 1, 0.5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index: 1000;
+}
+#acx_csma_loading .load_1
+{
+    background: url("images/loading.gif") no-repeat scroll 50% 50% transparent;
+    border-radius: 20px 20px 20px 20px;
+    height: 100px;
+    margin-left: -40px;
+	margin-top : -40px;
+	top:40%;
+	left:50%;
+	position: absolute;
+    opacity: 0.6;
+    width: 100px;
+}
+/********************************************
+media query 
+********************************************/
+@media screen and (max-width: 960px)
+{
+.days
+{
+	width: 100%;
+	margin-right: 0;
+}
+.timer_box  p
+{
+	text-align: left;
+}
+.footer
+{
+    margin: 0;
+    padding: 12px 0;	
+}
+}
+@media screen and (max-width: 640px)
+{
+.timer_box	
+{
+	width: 100%;
+	margin-right: 0;
+}
+.timer_box ul 
+{
+    text-align: center;
+}
+.timer_box ul li 
+{
+    display: inline-flex;
+    float: none;
+}
+.timer_box  p
+{
+	text-align: center;
+}
+}
+.acx_csma_li_span
+{
+	display: block; 
+	position: absolute; 
+	left: 0px; top: 0px; 
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	box-sizing: border-box;
+	padding-top: 5px;
+}
+#acx_csma_success ,#acx_csma_invalid ,#acx_csma_error
+{
+  background: #fff none repeat scroll 0 0;
+  padding: 10px 5px;
+  text-align: center;
+  border-radius: 4px;
+  max-width:400px;
+  margin:0 auto;
+}

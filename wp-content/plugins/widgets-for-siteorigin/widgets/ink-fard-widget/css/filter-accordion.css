@@ -1,0 +1,67 @@
+.iw-so-filter-acrdn-terms .iw-so-acrdn-terms {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  display: table;
+  margin: 2em auto; }
+  .iw-so-filter-acrdn-terms .iw-so-acrdn-terms::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .iw-so-filter-acrdn-terms .iw-so-acrdn-terms > li {
+    display: block;
+    float: left;
+    list-style: none;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+    margin-right: 3px; }
+    .iw-so-filter-acrdn-terms .iw-so-acrdn-terms > li > a {
+      cursor: pointer;
+      font-size: 1em;
+      padding: .5em 1em; }
+    .iw-so-filter-acrdn-terms .iw-so-acrdn-terms > li > * {
+      display: block; }
+
+.iw-so-accordion {
+  margin-bottom: 0;
+  margin-left: 0; }
+  .iw-so-accordion .mix {
+    display: none;
+    width: 100%; }
+  .iw-so-accordion .iw-so-acc-item {
+    margin-bottom: 0;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important; }
+    .iw-so-accordion .iw-so-acc-item .iw-so-acc-title {
+      display: block;
+      font-family: inherit;
+      font-size: 1.1em;
+      padding: 1em;
+      text-decoration: none;
+      outline: none;
+      position: relative;
+      -webkit-transition: all 300ms ease-in-out;
+      -moz-transition: all 300ms ease-in-out;
+      transition: all 300ms ease-in-out; }
+      .iw-so-accordion .iw-so-acc-item .iw-so-acc-title span {
+        position: absolute;
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        transition: all 300ms ease; }
+      .iw-so-accordion .iw-so-acc-item .iw-so-acc-title .iw-so-tgl-open {
+        opacity: 1;
+        visibility: visible; }
+      .iw-so-accordion .iw-so-acc-item .iw-so-acc-title .iw-so-tgl-close {
+        opacity: 0;
+        visibility: hidden; }
+    .iw-so-accordion .iw-so-acc-item .iw-so-acc-content {
+      padding: 0.9375rem; }
+      .iw-so-accordion .iw-so-acc-item .iw-so-acc-content li {
+        display: list-item; }
+    .iw-so-accordion .iw-so-acc-item.iw-so-acc-item-active .iw-so-acc-title .iw-so-tgl-open {
+      opacity: 0;
+      visibility: hidden; }
+    .iw-so-accordion .iw-so-acc-item.iw-so-acc-item-active .iw-so-acc-title .iw-so-tgl-close {
+      opacity: 1;
+      visibility: visible; }

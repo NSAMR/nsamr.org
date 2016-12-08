@@ -1,0 +1,437 @@
+@import "../../mixins/less/mixins";
+
+@bg: transparent;
+@border: '';
+@shadow: '';
+@title: #333;
+@title-t: #666;
+@title-pad: 10px;
+@title-bg: transparent;
+@price: #333;
+@price-t: #666;
+@price-pad: 10px;
+@price-bg: transparent;
+@feat: #666;
+@feat-pad: 10px;
+@feat-bg: transparent;
+@feat-gap: 5px;
+@bttn-pad: 10px;
+@bttn-bg: transparent;
+@btn-align: center;
+@btn-theme: classic;
+@btn-clr: #333;
+@btn-base: #eee;
+@btn-crnr: 0;
+@f-title: #333;
+@f-title-t: #666;
+@f-price: #333;
+@f-price-t: #666;
+@f-feat: #666;
+@f-bg: transparent;
+@f-border: '';
+@f-btn-clr: #333;
+@f-btn-base: #eee;
+@f-title-bg: transparent;
+@f-price-bg: transparent;
+@f-feat-bg: transparent;
+@f-bttn-bg: transparent;
+
+.iw-so-pricing {
+
+	.iw-so-pricing-plan {
+		.plan-border() when not (@border = '') {
+			border: 1px solid @border;
+		}
+		.plan-border();
+		background: @bg;
+
+		.shadow() when (@shadow = 1) {
+			.drop-shadow(1px, 1px, 10px, 0.4);
+		}
+		.shadow();
+
+		.iw-so-pricing-title-section {
+			padding: @title-pad 0;
+			background: @title-bg;
+
+			.iw-so-pricing-title {
+				color: @title;
+			}
+
+			.iw-so-pricing-title-tag {
+				color: @title-t;
+			}
+
+		}
+
+		.iw-so-pricing-price-section {
+			padding: @price-pad 0;
+			background: @price-bg;
+
+			.iw-so-pricing-price {
+				color: @price;
+			}
+
+			.iw-so-pricing-price-tag {
+				color: @price-t;
+			}
+
+		}
+
+		.iw-so-pricing-features-section {
+			padding: @feat-pad 0;
+			background: @feat-bg;
+
+			ul li {
+				color: @feat;
+				padding-bottom: @feat-gap;
+			}
+
+		}
+
+		.iw-so-pricing-button-section {
+			padding: @bttn-pad 0;
+			background: @bttn-bg;
+
+			.iw-so-pricing-btn-base {
+
+				.iw-so-pricing-btn {
+					border-radius: @btn-crnr;
+					color: @btn-base;
+
+					.btn-align() when (@btn-align = full) {
+						padding-left: 0;
+						padding-right: 0;
+						width: 100%;
+						box-sizing: border-box;
+					}
+					.btn-align() when (@btn-align = left) {
+						text-align: left
+					}
+					.btn-align() when (@btn-align = right) {
+						text-align: right
+					}
+					.btn-align() when (@btn-align = center) {
+						text-align: center
+					}
+					.btn-align();
+
+					.btn-theme() when (@btn-theme = classic) {
+						.gradient(@btn-clr, darken(@btn-clr, 15%), @btn-clr);
+						border: 1px solid;
+						border-color: darken(@btn-clr, 8%) darken(@btn-clr, 10%) darken(@btn-clr, 13%) darken(@btn-clr, 10%);
+					}
+					.btn-theme() when (@btn-theme = flat) {
+						background: @btn-clr;
+						border: 1px solid @btn-clr;
+					}
+					.btn-theme() when (@btn-theme = outline) {
+						background: transparent;
+						border: 2px solid @btn-clr;
+						color: @btn-clr;
+					}
+					.btn-theme() when (@btn-theme = threed) {
+						background: @btn-clr;
+						box-shadow: 0px 5px 0px 0px darken(@btn-clr, 10%);
+					}
+					.btn-theme() when (@btn-theme = shadow) {
+						.drop-shadow(1px, 1px, 4px, 0.4);
+						background: @btn-clr;
+						border: 1px solid @btn-clr;
+					}
+					.btn-theme() when (@btn-theme = deline) {
+						background: @btn-clr;
+						border: 2px solid @btn-clr;
+					}
+					.btn-theme();
+
+					&:hover {
+						.dft-theme() when (@btn-theme = classic) {
+							color: @btn-base;
+						}
+						.dft-theme() when (@btn-theme = flat) {
+							color: @btn-base;
+						}
+						.dft-theme() when (@btn-theme = outline) {
+							color: @btn-clr;
+						}
+						.dft-theme() when (@btn-theme = threed) {
+							color: @btn-base;
+						}
+						.dft-theme() when (@btn-theme = shadow) {
+							color: @btn-base;
+						}
+						.dft-theme() when (@btn-theme = deline) {
+							color: @btn-base;
+						}
+						.dft-theme();
+					}
+
+				}
+
+				.iw-so-pricing-btn-hover {
+
+					&:hover {
+						color: @btn-base;
+
+						.btn-hover() when (@btn-theme = classic) {
+							.gradient(lighten(@btn-clr, 2%), darken(@btn-clr, 20%), lighten(@btn-clr, 2%));
+							border-color: darken(@btn-clr, 4%) darken(@btn-clr, 6%) darken(@btn-clr, 18%) darken(@btn-clr, 6%);
+							color: @btn-base;
+						}
+						.btn-hover() when (@btn-theme = flat) {
+							background: darken(@btn-clr, 7.5%);
+							border-color: darken(@btn-clr, 7.5%);
+						}
+						.btn-hover() when (@btn-theme = outline) {
+							background: @btn-clr;
+							color: @btn-base;
+						}
+						.btn-hover() when (@btn-theme = threed) {
+							background: lighten(@btn-clr, 10%);
+						}
+						.btn-hover() when (@btn-theme = shadow) {
+							background: lighten(@btn-clr, 5%);
+							border-color: lighten(@btn-clr, 5%);
+							.drop-shadow(1px, 1px, 8px, 0.4);
+						}
+						.btn-hover() when (@btn-theme = deline) {
+							color: @btn-clr;
+							background: transparent;
+						}
+						.btn-hover();
+					}
+
+				}
+
+				.iw-so-pricing-btn-click {
+
+					&:active {
+						.btn-active() when (@btn-theme = classic) {
+							.box-shadow(inset 0 3px 25px darken(@btn-clr, 25%));
+						}
+						.btn-active() when (@btn-theme = flat) {
+							background: darken(@btn-clr, 15%);
+							border-color: darken(@btn-clr, 15%);
+						}
+						.btn-active() when (@btn-theme = outline) {
+							background: lighten(@btn-clr, 10%);
+							border-color: lighten(@btn-clr, 10%);
+							color: @btn-base;
+						}
+						.btn-active() when (@btn-theme = threed) {
+							-webkit-transform: translate(0, 5px);
+							-moz-transform: translate(0, 5px);
+							-ms-transform: translate(0, 5px);
+							-o-transform: translate(0, 5px);
+							transform: translate(0, 5px);
+							box-shadow: 0px 1px 0px 0px;
+						}
+						.btn-active() when (@btn-theme = shadow) {
+							background: darken(@btn-clr, 4%);
+							border-color: darken(@btn-clr, 4%);
+						}
+						.btn-active() when (@btn-theme = deline) {
+							color: lighten(@btn-clr, 20%);
+							border-color: lighten(@btn-clr, 20%);
+							background: transparent;
+						}
+						.btn-active();
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	.iw-so-pricing-featured {
+		.f-plan-border() when not (@f-border = '') {
+			border: 1px solid @f-border;
+		}
+		.f-plan-border();
+		background: @f-bg;
+
+		.iw-so-pricing-title-section {
+			background: @f-title-bg;
+
+			.iw-so-pricing-title {
+				color: @f-title;
+			}
+
+			.iw-so-pricing-title-tag {
+				color: @f-title-t;
+			}
+
+		}
+
+		.iw-so-pricing-price-section {
+			background: @f-price-bg;
+
+			.iw-so-pricing-price {
+				color: @f-price;
+			}
+
+			.iw-so-pricing-price-tag {
+				color: @f-price-t;
+			}
+
+		}
+
+		.iw-so-pricing-features-section {
+			background: @f-feat-bg;
+
+			ul li {
+				color: @f-feat;
+			}
+
+		}
+
+		.iw-so-pricing-button-section {
+			background: @f-bttn-bg;
+
+			.iw-so-pricing-btn-base {
+
+				.iw-so-pricing-btn {
+					color: @f-btn-base;
+
+					.f-btn-align() when (@btn-align = full) {
+						padding-left: 0;
+						padding-right: 0;
+						width: 100%;
+						box-sizing: border-box;
+					}
+					.f-btn-align() when (@btn-align = left) {
+						text-align: left
+					}
+					.f-btn-align() when (@btn-align = right) {
+						text-align: right
+					}
+					.f-btn-align() when (@btn-align = center) {
+						text-align: center
+					}
+					.f-btn-align();
+
+					.f-btn-theme() when (@btn-theme = classic) {
+						.gradient(@f-btn-clr, darken(@f-btn-clr, 15%), @f-btn-clr);
+						border-color: darken(@f-btn-clr, 8%) darken(@f-btn-clr, 10%) darken(@f-btn-clr, 13%) darken(@f-btn-clr, 10%);
+					}
+					.f-btn-theme() when (@btn-theme = flat) {
+						background: @f-btn-clr;
+						border: 1px solid @f-btn-clr;
+					}
+					.f-btn-theme() when (@btn-theme = outline) {
+						border: 2px solid @f-btn-clr;
+						color: @f-btn-clr;
+					}
+					.f-btn-theme() when (@btn-theme = threed) {
+						background: @f-btn-clr;
+						box-shadow: 0px 5px 0px 0px darken(@f-btn-clr, 10%);
+					}
+					.f-btn-theme() when (@btn-theme = shadow) {
+						.drop-shadow(1px, 1px, 4px, 0.4);
+						background: @f-btn-clr;
+						border: 1px solid @f-btn-clr;
+					}
+					.f-btn-theme() when (@btn-theme = deline) {
+						background: @f-btn-clr;
+						border: 2px solid @f-btn-clr;
+					}
+					.f-btn-theme();
+
+					&:hover {
+						.f-dft-theme() when (@btn-theme = classic) {
+							color: @f-btn-base;
+						}
+						.f-dft-theme() when (@btn-theme = flat) {
+							color: @f-btn-base;
+						}
+						.f-dft-theme() when (@btn-theme = outline) {
+							color: @f-btn-clr;
+						}
+						.f-dft-theme() when (@btn-theme = threed) {
+							color: @f-btn-base;
+						}
+						.f-dft-theme() when (@btn-theme = shadow) {
+							color: @f-btn-base;
+						}
+						.f-dft-theme() when (@btn-theme = deline) {
+							color: @f-btn-base;
+						}
+						.f-dft-theme();
+					}
+
+				}
+
+				.iw-so-pricing-btn-hover {
+
+					&:hover {
+						color: @f-btn-base;
+
+						.f-btn-hover() when (@btn-theme = classic) {
+							.gradient(lighten(@f-btn-clr, 2%), darken(@f-btn-clr, 20%), lighten(@f-btn-clr, 2%));
+							border-color: darken(@f-btn-clr, 4%) darken(@f-btn-clr, 6%) darken(@f-btn-clr, 18%) darken(@f-btn-clr, 6%);
+							color: @f-btn-base;
+						}
+						.f-btn-hover() when (@btn-theme = flat) {
+							background: darken(@f-btn-clr, 7.5%);
+							border-color: darken(@f-btn-clr, 7.5%);
+						}
+						.f-btn-hover() when (@btn-theme = outline) {
+							background: @f-btn-clr;
+							color: @f-btn-base;
+						}
+						.f-btn-hover() when (@btn-theme = threed) {
+							background: lighten(@f-btn-clr, 10%);
+						}
+						.f-btn-hover() when (@btn-theme = shadow) {
+							background: lighten(@f-btn-clr, 5%);
+							border-color: lighten(@f-btn-clr, 5%);
+						}
+						.f-btn-hover() when (@btn-theme = deline) {
+							color: @f-btn-clr;
+						}
+						.f-btn-hover();
+					}
+
+				}
+
+				.iw-so-pricing-btn-click {
+
+					&:active {
+						.f-btn-active() when (@btn-theme = classic) {
+							.box-shadow(inset 0 3px 25px darken(@f-btn-clr, 25%));
+						}
+						.f-btn-active() when (@btn-theme = flat) {
+							background: darken(@f-btn-clr, 15%);
+							border-color: darken(@f-btn-clr, 15%);
+						}
+						.f-btn-active() when (@btn-theme = outline) {
+							background: lighten(@f-btn-clr, 10%);
+							border-color: lighten(@f-btn-clr, 10%);
+							color: @f-btn-base;
+						}
+						.f-btn-active() when (@btn-theme = shadow) {
+							background: darken(@f-btn-clr, 4%);
+							border-color: darken(@f-btn-clr, 4%);
+						}
+						.f-btn-active() when (@btn-theme = deline) {
+							color: lighten(@f-btn-clr, 20%);
+							border-color: lighten(@f-btn-clr, 20%);
+						}
+						.f-btn-active();
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

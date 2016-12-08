@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a130c2e-cf56-44f2-9c3c-e8c79a54bc84" name="Default" comment="" />
+    <ignored path="addon-so-widgets-bundle.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="addon-so-widgets-bundle" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/extra-widgets/blog-style-one/blog-style-one.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/divider/divider.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/spacer/spacer.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/toggles/toggles.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/faqs/faqs.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/service-box/tpl/service-box-template.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/service-box/service-box.php" />
+        <option value="$PROJECT_DIR$/css/grid12.css" />
+        <option value="$PROJECT_DIR$/extra-widgets/divider/tpl/divider-template.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/faqs/tpl/faqs-template.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/service-box/styles/service-box-style.less" />
+        <option value="$PROJECT_DIR$/extra-widgets/tabs/tabs.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/toggles/tpl/toggles-template.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/tabs/tpl/tabs-template.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/tabs/styles/tabs-style.less" />
+        <option value="$PROJECT_DIR$/extra-widgets/faqs/styles/faqs-style.less" />
+        <option value="$PROJECT_DIR$/extra-widgets/toggles/styles/toggles-style.less" />
+        <option value="$PROJECT_DIR$/extra-widgets/divider/styles/divider-style.less" />
+        <option value="$PROJECT_DIR$/extra-widgets/blog-style-one/tpl/blog-style-one-template.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/blog-style-two/blog-style-two.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/testimonials/testimonials.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/testimonials/tpl/testimonials-template.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/blog-style-two/tpl/blog-style-two-template.php" />
+        <option value="$PROJECT_DIR$/extra-widgets/blog-style-one/styles/blog-style-one-style.less" />
+        <option value="$PROJECT_DIR$/extra-widgets/testimonials/styles/testimonials-style.less" />
+        <option value="$PROJECT_DIR$/css/skeleton.css" />
+        <option value="$PROJECT_DIR$/css/widgets.css" />
+        <option value="$PROJECT_DIR$/addon-so-widgets-bundle.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra-widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra-widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testimonials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra-widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testimonials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra-widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testimonials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra-widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-style-two" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra-widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-style-two" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra-widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-style-one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra-widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-style-one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon-so-widgets-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="fileColors" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../themes/theme1/wp-content/themes/fractal" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a130c2e-cf56-44f2-9c3c-e8c79a54bc84" name="Default" comment="" />
+      <created>1437118674096</created>
+      <updated>1437118674096</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2137628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/addon-so-widgets-bundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
+          <folding>
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/blog-style-one/styles/blog-style-one-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/testimonials/tpl/testimonials-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="33" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/blog-style-two/styles/blog-style-two-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/testimonials/styles/testimonials-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="49" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addon-so-widgets-bundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="84" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2805">
+          <folding>
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addon-so-widgets-bundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="84" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2805">
+          <folding>
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/divider/divider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="18" selection-start="2282" selection-end="2282" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/divider/tpl/divider-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/divider/styles/divider-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/testimonials/tpl/testimonials-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="28" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/testimonials/styles/testimonials-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="60" selection-start="261" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/blog-style-one/tpl/blog-style-one-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="395" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="799" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/blog-style-one/styles/blog-style-one-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="19" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/widgets.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="15" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="12172" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addon-so-widgets-bundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="31" selection-start="3255" selection-end="3255" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="2890">
+          <folding>
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/spacer/spacer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="65" selection-start="389" selection-end="455" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1003" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/toggles/toggles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="63" selection-start="438" selection-end="438" vertical-scroll-proportion="0.249694" vertical-offset="0" max-vertical-offset="2091" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/service-box/service-box.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="26" selection-start="7509" selection-end="7509" vertical-scroll-proportion="-16.076923" vertical-offset="2795" max-vertical-offset="4488" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/service-box/tpl/service-box-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="32" selection-start="2628" selection-end="2628" vertical-scroll-proportion="-29.615385" vertical-offset="301" max-vertical-offset="1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../themes/custom/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../themes/custom/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/faqs/faqs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="65" selection-start="475" selection-end="475" vertical-scroll-proportion="0.30479452" vertical-offset="60" max-vertical-offset="2091" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/service-box/styles/service-box-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="11" selection-start="695" selection-end="706" vertical-scroll-proportion="-0.12164579" vertical-offset="408" max-vertical-offset="1003" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/spacer/styles/spacer-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/toggles/tpl/toggles-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="226" selection-end="226" vertical-scroll-proportion="0.34931508" vertical-offset="0" max-vertical-offset="584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/tabs/tabs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="0" selection-start="4179" selection-end="4179" vertical-scroll-proportion="0.875" vertical-offset="1308" max-vertical-offset="2431" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/faqs/tpl/faqs-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="323" selection-end="328" vertical-scroll-proportion="0.43664384" vertical-offset="0" max-vertical-offset="584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/tabs/styles/tabs-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="0" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.46561885" vertical-offset="2058" max-vertical-offset="2567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/tabs/tpl/tabs-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="354" selection-end="354" vertical-scroll-proportion="-0.29109588" vertical-offset="459" max-vertical-offset="1054" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/faqs/styles/faqs-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="106" selection-end="154" vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="1224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/toggles/styles/toggles-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="156" selection-end="156" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/divider/tpl/divider-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/divider/styles/divider-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="89" selection-end="89" vertical-scroll-proportion="0.09123435" vertical-offset="0" max-vertical-offset="559" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/divider/divider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="18" selection-start="2282" selection-end="2282" vertical-scroll-proportion="0.33047944" vertical-offset="963" max-vertical-offset="1547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="804" column="32" selection-start="17682" selection-end="17688" vertical-scroll-proportion="12.6" vertical-offset="13983" max-vertical-offset="55726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/blog-style-one/blog-style-one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="72" selection-start="465" selection-end="465" vertical-scroll-proportion="-5.8846154" vertical-offset="51" max-vertical-offset="1632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/blog-style-one/tpl/blog-style-one-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="39" selection-start="785" selection-end="785" vertical-scroll-proportion="-11.346154" vertical-offset="215" max-vertical-offset="799" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/testimonials/testimonials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="36" selection-start="1710" selection-end="1721" vertical-scroll-proportion="0.6369863" vertical-offset="461" max-vertical-offset="2907" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/blog-style-two/blog-style-two.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="28" selection-start="1135" selection-end="1138" vertical-scroll-proportion="0.30136988" vertical-offset="470" max-vertical-offset="1768" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/blog-style-two/tpl/blog-style-two-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="89" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.61130136" vertical-offset="204" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/widgets.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.50163937" vertical-offset="0" max-vertical-offset="2737" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addon-so-widgets-bundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2941">
+          <folding>
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1438086731936" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/blog-style-one/styles/blog-style-one-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/testimonials/tpl/testimonials-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="33" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/blog-style-two/styles/blog-style-two-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra-widgets/testimonials/styles/testimonials-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="49" selection-start="203" selection-end="203" vertical-scroll-proportion="0.11908932" vertical-offset="0" max-vertical-offset="571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

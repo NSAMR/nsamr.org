@@ -1,0 +1,104 @@
+@import "mixins/less/mixins";
+
+@radius: 0em;
+@size: standard;
+@text: #fff;
+@bg: #333;
+@theme: flat;
+@close: #fff;
+
+.iw-so-alert {
+
+	color: @text;
+	border-radius: @radius;
+
+	.alert-size() when (@size = small) {
+		font-size: 0.95em; padding: 0.875em 1.75em 0.875em 3em;
+	}
+
+	.alert-size() when (@size = standard) {
+		font-size: 1.25em; padding: 1em 2em 1em 3.2em;
+	}
+
+	.alert-size() when (@size = large) {
+		font-size: 1.5em; padding: 1.125em 2.25em 1.125em 3em;
+	}
+
+	.alert-size();
+
+	.alert-theme() when (@theme = classic) {
+		.gradient(@bg, darken(@bg, 15%), @bg);
+		border: 1px solid;
+		border-color: darken(@bg, 8%) darken(@bg, 10%) darken(@bg, 13%) darken(@bg, 10%);
+	}
+
+	.alert-theme() when (@theme = flat) {
+		background: @bg;
+		border: 1px solid @bg;
+	}
+	.alert-theme() when (@theme = outline) {
+		background: transparent;
+		border: 1px solid @bg;
+	}
+
+	.alert-theme() when (@theme = threed) {
+		background: @bg;
+		border: solid darken(@bg, 10%);
+		border-width: 0 0 5px 0;
+	}
+
+	.alert-theme() when (@theme = shadow) {
+		.drop-shadow(1px, 1px, 4px, 0.4);
+		background: @bg;
+		border: 1px solid @bg;
+	}
+
+	.alert-theme() when (@theme = modern) {
+		background: @bg;
+		.box-shadow(inset 5px 0px 0px darken(@bg, 25%))
+	}
+
+	.alert-theme();
+
+	[class^="sow-icon-"] {
+
+		.icon-size() when (@size = small) {
+			left: 1.5em; font-size: 1em;
+		}
+
+		.icon-size() when (@size = standard) {
+			left: 1em; font-size: 1.25em;
+		}
+
+		.icon-size() when (@size = large) {
+			left: 0.5em; font-size: 1.5em;
+		}
+
+		.icon-size();
+
+	}
+
+	.iw-so-alert-msg {
+		line-height: 1.5;
+	}
+
+	.close {
+		color: @close;
+
+		.close-size() when (@size = small) {
+			font-size: 1em;
+		}
+
+		.close-size() when (@size = standard) {
+			font-size: 1.15em;
+		}
+
+		.close-size() when (@size = large) {
+			font-size: 1.4em;
+		}
+
+		.close-size();
+
+	}
+
+}

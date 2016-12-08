@@ -1,0 +1,33 @@
+.iw-so-alert {
+  display: block;
+  font-weight: normal;
+  position: relative;
+  -webkit-transition: opacity 300ms ease-out;
+  -moz-transition: opacity 300ms ease-out;
+  transition: opacity 300ms ease-out; }
+  .iw-so-alert [class^="sow-icon-"] {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .iw-so-alert .close {
+    right: 0.25rem;
+    line-height: .9;
+    opacity: 0.7;
+    padding: 0 6px 4px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    box-shadow: none;
+    text-decoration: none;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: bolder; }
+    .iw-so-alert .close:hover, .iw-so-alert .close:focus {
+      opacity: 1; }

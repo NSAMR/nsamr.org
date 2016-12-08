@@ -1,0 +1,58 @@
+#csma_addons_intro_holder
+{
+display: block;
+width: 98%;
+}
+.csma_addons_intro
+{
+background: white none repeat scroll 0 0;
+border: 1px solid #7cbac3;
+border-radius: 2px;
+box-sizing: border-box;
+cursor: pointer;
+display: block;
+float: left;
+font-family: arial;
+font-size: 12px;
+height: 420px;
+margin-bottom: 2%;
+margin-right: 2%;
+max-height: 420px;
+max-width: 100%;
+padding: 10px;
+text-align: center;
+width: 22%;
+}
+.csma_addons_intro > img {
+	border: 1px dotted lightgray;
+	width: 100%;
+}
+.csma_addons_intro h3 {
+	color: #3c87b3;
+	font-family: arial;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.csma_addons_intro > p {
+	font-family: Helvetica;
+	font-size: 12px;
+	height: 130px;
+	line-height: 18px;
+	text-align: justify;
+}
+.csma_addons_intro .csma_addon_button {
+	border: 1px solid black;
+	box-sizing: border-box;
+	color: black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 6px;
+	text-decoration: none;
+	border-radius: 2px;
+	width: 85%;
+}
+.csma_addons_intro .csma_addon_button:hover {
+	background:#f8f8f8;
+}

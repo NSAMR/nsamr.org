@@ -1,0 +1,320 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: "arial";	
+	color: #4b4b4b;
+	font-size: 14px;
+
+}
+.text_logo #header .logo_text {
+  font-size: 29px;
+  text-align: center;
+}
+.text_logo #header {
+  padding: 20px;
+}
+p, img, h2, ol, ul, li, a
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+	transition: all 0.4s ease 0s;	
+}
+h2
+{
+    font-size: 33px;
+    font-weight: normal;
+    margin: 70px 0 0;
+}
+h3
+{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 30px 0;
+}
+#header, h2, h3, .timer_head, .timer_box p, .footer
+{
+    text-align: center;	
+}
+.wrapper, .canvas1000, .inline_block, .timer_head
+{
+	width: 100%;
+	transition: all 0.4s ease 0s;	
+}
+.canvas1000
+{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#header
+{
+    padding: 50px 0;
+}
+#header img {
+  display: block;
+  margin: 0 auto;
+  max-width: 315px;
+}
+.inline_block
+{
+	display: inline-block;	
+}
+.acx_csma_content_div{
+width:100%;
+height:auto;
+}
+.mg_top
+{
+    border: 1px solid #dddee1;
+    border-radius: 20px;
+}
+.timer_holder
+{
+    padding: 50px 8% 30px;
+    width: 84%;
+	float:left;
+	max-width:1000px;
+}
+#acx_csma_top_1 {
+  margin: 10px auto;
+  width: 90%;
+}
+
+/*--------------*/
+
+.custom-container
+{
+	width:100%;
+	float:left;
+}
+
+ul#countdown
+{
+	padding:0;
+	margin:0;	
+}
+
+ul#countdown li
+{
+    display: block;
+    float: left;
+    margin: 0 10px;
+    min-width: 147px;
+    text-align: center;
+}
+
+#week,#day,#hour,#minute,#second
+{
+	background: url("images/timer_bg.png") repeat scroll 0 0 transparent;
+	border: 1px solid #ebebeb;
+    border-radius: 10px;
+    font-size: 80px;
+    font-weight: bold;
+	height: 120px;
+    padding-top: 20px;
+}
+
+#names
+{
+	font-size:14px;
+	font-weight:normal;
+	text-transform:uppercase;
+	padding-top: 15px;
+	
+}
+
+/*-----------------*/
+
+.pre_loader
+{
+
+    border-radius: 10px;
+    height: 17px;
+    margin: 0 auto;
+    max-width: 740px;
+    overflow: hidden;
+	position:relative;
+}
+.scmi
+{
+    margin: 20px 0 0;
+}
+.scmi ul
+{
+    text-align: center;
+}
+.scmi ul li
+{
+    display: inline-block;
+    height: 27px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.acx_csma_social_icons {
+  display: block;
+  float: left;
+  height: 26px;
+  width: 26px;
+  border-radius:3px;
+}
+.acx_csma_social_icons:hover
+{
+	background: #777;
+}
+.acx_csma_social_icons > img
+{
+	display:block;
+	margin:auto;
+	max-width:100%;
+	vertical-align:middle;
+}
+.csma_fb
+{
+	background:#3b5998;
+}
+
+.csma_twtr
+{
+	background:#55acee;
+}
+
+.csma_lnkn
+{
+	background:#0077b5;
+}
+.footer
+{
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto 50px;
+    max-width: 931px;
+    padding: 30px 0;
+    position: relative;
+}
+input
+{
+    background: none repeat scroll 0 0 #4b4b4b;
+    border: 1px solid #727272;
+    border-radius: 8px;
+    color: #b3b3b3;
+    max-width: 370px;
+    padding: 7px 10px;
+    width: 80%;
+}
+.submit
+{
+    background: url("images/submit.png") repeat-x scroll 0 0 transparent;
+    border: 0 none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0 0 0 10px;
+    max-width: 110px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+}
+.submit:hover
+{
+	color: #7c4f00;	
+}
+#acx_csma_loading
+{
+    background: rgba(1, 1, 1, 0.5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index: 1000;
+}
+#acx_csma_loading .load_1
+{
+    background: url("images/loading.gif") no-repeat scroll 50% 50% transparent;
+    border-radius: 20px 20px 20px 20px;
+    height: 100px;
+    margin-left: -40px;
+	margin-top : -40px;
+	top:40%;
+	left:50%;
+	position: absolute;
+    opacity: 0.6;
+    width: 100px;
+}
+/********************************************
+media query 
+********************************************/
+@media screen and (max-width: 1000px)
+{
+.mg_top
+{
+    border-radius: 0;
+	border: 0;
+}
+.days
+{
+	width: 100%;
+	margin-right: 0;
+}
+img
+{
+	max-width: 300px;
+	width: 100%;
+}
+.timer_box	
+{
+	width: 100%;
+	margin-right: 0;
+}
+.timer_box ul 
+{
+    text-align: center;
+}
+.timer_box ul li 
+{
+    display: inline-block;
+    float: none;
+}
+.timer_box  p
+{
+    text-align: center;
+}
+.pre_loader
+{
+	width: 80%;
+}
+
+}
+@media screen and (max-width: 640px)
+{
+.submit 
+{
+    margin: 20px 0 0;
+    max-width: 250px;
+}
+
+ul#countdown li
+{
+    float:none;
+    margin: 0;
+    width:100%;
+}
+
+#numbers, #names
+{
+	width:100%;
+}
+
+}
+#acx_csma_success ,#acx_csma_invalid ,#acx_csma_error
+{
+  background: #fff none repeat scroll 0 0;
+  padding: 10px 5px;
+  text-align: center;
+  border-radius: 4px;
+  max-width:400px;
+  margin:0 auto;
+}

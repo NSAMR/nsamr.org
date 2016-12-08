@@ -1,0 +1,82 @@
+@import "../mixins/less/mixins";
+
+@theme: classic;
+@bg: #fff;
+@bg-c: transparent;
+@title: #222;
+@highlight: #666;
+@icon: left;
+
+.iw-so-tabs .iw-so-tabs-content {
+	background: @bg-c;
+}
+
+.iw-so-tabs .iw-so-tab-title {
+
+	margin-right: 3px;
+
+	a {
+		color: @title;
+
+		.tab-theme() when (@theme = boxed) {
+			background: @bg;
+			border: 2px solid @bg;
+		}
+		.tab-theme() when (@theme = flat) {
+			background: @bg;
+		}
+		.tab-theme() when (@theme = underline) {
+			background: @bg;
+		}
+		.tab-theme() when (@theme = overline) {
+			background: @bg;
+		}
+		.tab-theme() when (@theme = minimal) {
+			background: transparent;
+			padding-left: 2px;
+		}
+		.tab-theme();
+
+		[class^="sow-icon-"] {
+			font-size: 1.5em;
+			height: 1em;
+			width: 1em;
+			.icon-loc() when (@icon = left) { float: left; margin: 0.1em 0.75em -0.2em 0em; }
+			.icon-loc() when (@icon = right) { float: right; margin: 0.1em 0em -0.2em 0.75em; }
+			.icon-loc() when (@icon = above) { margin: -0.1em auto 0.5em auto; }
+			.icon-loc();
+			display: block;
+			color: inherit;
+		}
+
+		&:hover,
+		&:focus {
+			color: @highlight;
+		}
+
+	}
+
+	&.iw-so-tab-active a {
+		.tab-active() when (@theme = boxed) {
+			background: @bg;
+			border-color: @highlight;
+			color: @highlight;
+		}
+		.tab-active() when (@theme = flat) {
+			background: @highlight;
+			color: @bg;
+		}
+		.tab-active() when (@theme = underline) {
+			color: @highlight;
+			.box-shadow( inset 0 -3px 0 @highlight);
+		}
+		.tab-active() when (@theme = overline) {
+			color: @highlight;
+			.box-shadow( inset 0 3px 0 @highlight);
+		}
+		.tab-active() when (@theme = minimal) {
+			color: @highlight;
+		}
+		.tab-active();
+	}
+}

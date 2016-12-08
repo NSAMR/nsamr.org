@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+#acx_csma_1_p_q_and_a_h_main_holder {
+    box-sizing: border-box;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+#acx_csma_2_p_q_and_a_h_main_holder{
+    box-sizing: border-box;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+#acx_csma_2_p_q_and_a_h_main_holder .f_w
+{
+	float:left;
+	width:100%;
+}
+#acx_csma_3_p_q_and_a_h_main_holder{
+    box-sizing: border-box;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+#acx_csma_4_p_q_and_a_h_main_holder{
+    box-sizing: border-box;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+#acx_csma_5_p_q_and_a_h_main_holder{
+    box-sizing: border-box;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+#acx_csma_template_0 table {
+    width: 100%;
+}
+#acx_csma_template_0 table td:first-child {
+    min-width: 160px;
+    width: 15%;
+}
+#acx_csma_template_0 textarea {
+    border: 1px solid lightgray;
+    box-shadow: none;
+    margin-top: 14px;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+#acx_csmap_q_and_a_h {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: arial;
+    font-size: 13px;
+    margin-top: 10px;
+    max-width: 100%;
+    padding: 10px;
+    text-transform: capitalize;
+    width: 100%;
+}
+#acx_csmap_q_and_a_h input {
+    border: 1px solid lightblue;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    max-width: 96%;
+    width: 255px;
+}
+#acx_csmap_q_and_a_h textarea {
+    display: block;
+    float: right;
+    line-height: 1.4;
+    margin-right: 20px;
+    overflow: auto;
+    padding: 2px 6px;
+    width: 255px;
+}
+#acx_csmap_q_and_a_h select {
+    float: right;
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: 11px;
+    width: 255px;
+}
+#acx_csmap_q_and_a_h label {
+    cursor: default;
+    display: block;
+    float: left;
+    max-width: 99%;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    text-align: justify;
+    width: 52%;
+	line-height:30px;
+}
+#acx_csmap_q_and_a_h .acx_qa_field {
+    float: right;
+    min-width: 276px;
+    width: 43%;
+}
+#acx_csmap_q_and_a_h .acx_csmap_q_and_a_inside {
+    color: #747474;
+    display: inline-block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 8px 1%;
+    text-align: left;
+    width: 98%;
+}
+#acx_csmap_q_and_a_h .acx_csma_q {
+    color: #393939;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-family: "Oxygen",sans-serif;
+    font-size: 14px;
+    max-width: 100%;
+    min-height: 18px;
+    width: 675px;
+}
+#acx_csmap_q_and_a_h .acx_csma_toggle {
+    cursor: pointer;
+    float: right;
+    height: 22px;
+    width: 22px;
+}
+#acx_csmap_q_and_a_h .plus {
+    background: url("../images/plus.png") repeat scroll 0 0 transparent;
+}
+#acx_csmap_q_and_a_h .minus {
+    background: url("../images/minus.png") repeat scroll 0 0 transparent;
+}
+#acx_csmap_q_and_a_h .acx_open {
+    background: none repeat scroll 0 0 white;
+    border-radius: 2px;
+    display: inline-block !important;
+    margin-top: 8px;
+    min-height: 50px;
+    width: 100%;
+}
+#acx_csmap_q_and_a_h .f_w{
+	float:left;
+	width:100%;
+	height:5px;
+}
+.acx_csmap_q_and_a_h_info
+{
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px dotted lightgray;
+    box-sizing: border-box;
+    float: left;
+    font-family: arial;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    padding: 1%;
+    text-align: right;
+    width: 100%;
+}
+.acx_csmap_q_and_a_h_info a
+{
+    padding: 4px;
+    text-decoration: none;
+}
+/* ------------------------------------------------------------------ */
+.acx_csmap_q_and_a_inside .acx_csma_logo_main{
+width:200px;
+float:left;
+}
+.acx_csmap_q_and_a_inside .acx_csma_logo_block{
+clear:both;
+}
+.acx_csmap_q_and_a_inside input.acx_csma_logo {
+  margin: 2px 0 0 !important;
+    padding: 0 !important;
+    width: 6px !important;
+}
+.acx_csmap_q_and_a_inside p{
+display: inline-block;
+margin: 0 !important;
+padding-left: 11px;
+}
+.acx_csmap_q_and_a_inside table{
+height: 24px; width: 234px;
+}
+

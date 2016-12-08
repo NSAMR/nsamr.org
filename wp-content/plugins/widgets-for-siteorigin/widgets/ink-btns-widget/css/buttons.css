@@ -1,0 +1,25 @@
+.iw-so-button-base::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.iw-so-button-base .iw-so-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: normal;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out; }
+  @media only screen and (min-width: 40.0625em) {
+    .iw-so-button-base .iw-so-button {
+      display: inline-block; } }

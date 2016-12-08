@@ -1,0 +1,98 @@
+.iw-so-folio-terms-container::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.iw-so-folio-terms-container .iw-so-folio-terms {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  display: table;
+  margin: 2.02em auto; }
+  .iw-so-folio-terms-container .iw-so-folio-terms > li {
+    display: block;
+    float: left;
+    list-style: none;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+    margin-right: 3px; }
+    .iw-so-folio-terms-container .iw-so-folio-terms > li > a {
+      cursor: pointer;
+      font-size: 1em;
+      padding: .5em 1em; }
+    .iw-so-folio-terms-container .iw-so-folio-terms > li > * {
+      display: block; }
+
+.iw-so-folio-grid {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .iw-so-folio-grid::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .iw-so-folio-grid .mix {
+    display: none; }
+  .iw-so-folio-grid .mix,
+  .iw-so-folio-grid .no-mix {
+    float: left; }
+  .iw-so-folio-grid .iw-so-project-container .iw-so-project-article {
+    margin: 0.5em 0.5em;
+    position: relative;
+    overflow: hidden; }
+    .iw-so-folio-grid .iw-so-project-container .iw-so-project-article .iw-so-project-image {
+      overflow: hidden; }
+      .iw-so-folio-grid .iw-so-project-container .iw-so-project-article .iw-so-project-image a {
+        display: block;
+        position: relative;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        transition: all 0.3s linear; }
+        .iw-so-folio-grid .iw-so-project-container .iw-so-project-article .iw-so-project-image a [class^="sow-icon-"] {
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display: none;
+          -webkit-transition: all 0.2s linear;
+          -moz-transition: all 0.2s linear;
+          transition: all 0.2s linear;
+          top: 50%; }
+        .iw-so-folio-grid .iw-so-project-container .iw-so-project-article .iw-so-project-image a:hover [class^="sow-icon-"] {
+          display: block; }
+      .iw-so-folio-grid .iw-so-project-container .iw-so-project-article .iw-so-project-image img {
+        vertical-align: top;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden; }
+    .iw-so-folio-grid .iw-so-project-container .iw-so-project-article .iw-so-project-content {
+      padding: 0 0.2em;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%; }
+      .iw-so-folio-grid .iw-so-project-container .iw-so-project-article .iw-so-project-content .iw-so-project-title {
+        margin: 0; }
+        .iw-so-folio-grid .iw-so-project-container .iw-so-project-article .iw-so-project-content .iw-so-project-title a {
+          text-decoration: none; }
+      .iw-so-folio-grid .iw-so-project-container .iw-so-project-article .iw-so-project-content .iw-so-project-type {
+        padding-bottom: 0;
+        margin: 0; }
+  .iw-so-folio-grid.iw-so-folio-default .iw-so-project-image:hover img {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15); }
+  .iw-so-folio-grid.iw-so-folio-gallery .iw-so-project-article:hover .iw-so-project-image img {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15); }

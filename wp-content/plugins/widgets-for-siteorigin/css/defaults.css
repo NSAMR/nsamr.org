@@ -1,0 +1,67 @@
+/* text alignments */
+.iw-text-left {
+  text-align: left !important; }
+
+.iw-text-right {
+  text-align: right !important; }
+
+.iw-text-center {
+  text-align: center !important; }
+
+.iw-text-justify {
+  text-align: justify !important; }
+
+/* small displays */
+@media only screen {
+  .iw-small,
+  .iw-med-dw {
+    display: inherit !important; }
+  .iw-med-up,
+  .iw-medium,
+  .iw-large {
+    display: none !important; } }
+
+/* medium displays */
+@media only screen and (min-width: 640px) {
+  .iw-med-dw,
+  .iw-med-up,
+  .iw-medium {
+    display: inherit !important; }
+  .iw-small,
+  .iw-large {
+    display: none !important; } }
+
+/* large displays */
+@media only screen and (min-width: 1024px) {
+  .iw-med-up,
+  .iw-large {
+    display: inherit !important; }
+  .iw-small,
+  .iw-med-dw,
+  .iw-medium {
+    display: none !important; } }
+
+/* Orientation targeting */
+.iw-show-l,
+.iw-hide-p {
+  display: inherit !important; }
+
+.iw-hide-l,
+.iw-show-p {
+  display: none !important; }
+
+@media only screen and (orientation: landscape) {
+  .iw-show-l,
+  .iw-hide-p {
+    display: inherit !important; }
+  .iw-hide-l,
+  .iw-show-p {
+    display: none !important; } }
+
+@media only screen and (orientation: portrait) {
+  .iw-show-p,
+  .iw-hide-l {
+    display: inherit !important; }
+  .iw-hide-p,
+  .iw-show-l {
+    display: none !important; } }

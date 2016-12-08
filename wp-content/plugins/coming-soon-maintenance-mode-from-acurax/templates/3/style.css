@@ -1,0 +1,422 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial;	
+	color: #000000;
+	font-size: 12px;	
+}
+.text_logo .logo_text {
+  float: left;
+  font-size: 30px;
+  margin-top: 71px;
+  max-height: 100%;
+  width: 100%;
+}
+p, img, h1, h2, h3, h4, h5, ol, ul, li, a
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+	transition: all 0.4s ease 0s;	
+}
+p
+{
+    line-height: 18px;
+} 
+h2
+{
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 42px;
+    margin: 0 0 40px;
+    text-align: left;
+	
+}
+h3
+{
+
+    font-size: 20px;
+    font-weight: 400;
+}
+h4
+{
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 13px;
+    text-align: center;	
+}
+h5
+{
+    font-size: 14px;
+    margin: 0 0 10px;	
+}
+.timer_box p
+{
+    font-weight: bold;
+    text-align: center;
+}
+.wrapper, .canvas960, .inline_block, .header
+{
+	width: 100%;
+	transition: all 0.4s ease 0s;	
+}
+.wrapper
+{
+    margin: 50px 0;
+    min-height: 518px;
+	float:left;
+	padding:40px 0px;
+}
+.acx_aditnl_wrap {
+  display: block;
+  float: left;
+  width: 100%;
+}
+.canvas960
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.inline_block
+{
+	display: inline-block;	
+}
+
+.header {
+  border-bottom: 1px solid #0d0d0d;
+  display: table;
+  min-height: 149px;
+  position: relative;
+  text-align: center;
+}
+/* Style for Square */
+.acx_header_top_sq {
+  float: left;
+  left: 0;
+  position: absolute;
+  top: -8px;
+  width: 100%;
+}
+.acx_header_bottom_sq{
+  float: left;
+  left: 0;
+  position: absolute;
+  bottom: -8px;
+  width: 100%;
+}
+
+.acx_header_sq_in {
+  display: block;
+  overflow: hidden;
+  height:18px;
+  width:100%;
+}
+.acx_sq_001 {
+  display: block;
+  float: left;
+  height: 18px;
+  width: 18px;
+  margin:0px 8px 0px 6px;
+}
+
+#acx_csma_temp3_img_cvr {
+  margin: 0 auto;
+  max-width: 100%;
+}
+#acx_csma_top_1
+{
+	margin: 10px auto;
+  width: 100%;
+  float:left;
+}
+#acx_timer_heading {
+  float: left;
+  width: 100%;
+}
+
+#acx_csma_temp3_img_cvr img {
+  display: block;
+  margin: 80px auto 24px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.timer_holder
+{
+    float: left;
+    width: 50%;
+}
+.acx_csma_content_div{
+width:100%;
+height:auto;
+}
+.form_holder {
+  float: left;
+  margin-bottom: -32px;
+  margin-top: -40px;
+  max-width: 384px;
+  min-height: 580px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.timer_holder
+{
+    margin: 0 0 0 50px;
+    max-width: 525px;
+    width: 100%;
+}
+.form
+{
+    padding: 40px 10% 71px;
+	height:240px;
+}
+input
+{
+    border: 0 none;
+    color: #000000;
+    margin: 0 0 16px;
+    max-width: 381px;
+    padding: 12px;
+    width: 82%;
+	text-align: center;
+}
+.submit
+{
+    cursor: pointer;
+    font-size: 13px;
+    margin: 0;
+    width:auto;
+    padding: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.scmi
+{
+    height: 39px;
+    
+}
+.scmi p
+{
+    text-transform: uppercase;
+}
+.scmi ul
+{
+    padding: 11px 0 0;
+    text-align: right;
+}
+.scmi ul li
+{
+    display: inline-block;
+    height: 16px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.acx_csma_social_icons {
+  background: #333 none repeat scroll 0 0;
+  display: block;
+  float: left;
+  height: 16px;
+  width: 16px;
+}
+.acx_csma_social_icons > img
+{
+	display:block;
+	margin:auto;
+	max-width:100%;
+	vertical-align:middle;
+}
+.csma_fb:hover
+{
+	background:#3b5998;
+}
+
+.csma_twtr:hover
+{
+	background:#55acee;
+}
+
+.csma_lnkn:hover
+{
+	background:#0077b5;
+}
+
+
+.timer_box
+{
+    float: left;
+    margin-right: 20px;
+	transition: all 0.4s ease 0s;		
+}
+.timer_box ul
+{
+    display: inline-block;
+    margin: 0 0 10px;	
+}
+.timer_box ul li
+{
+    display: block;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 4px 0 0;
+    padding: 8px 18px;	
+}
+.days
+{
+    margin: -3px 0 0 -18px;
+    max-width: none;
+    width: 100%;	
+}
+.days ul li
+{
+    background: none;
+    font-size: 70px;
+    margin: 0;	
+}
+.last_one, .days ul
+{
+	margin: 0;
+}
+.day_text
+{
+    font-size: 12px !important;
+    margin: 0 0 0 -10px !important;
+    padding: 0 !important;	
+}
+.day_text {
+    padding: 62px 0 0 !important;
+}
+.text_box
+{
+    background: url("images/divider.png") repeat-x scroll center top transparent;
+    margin: 30px 0 0px;
+    min-height: 98px;
+	max-height:165px;
+  overflow-x: hidden;
+  overflow-y: auto;
+    padding: 30px 0 0;
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-0-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+
+.text_box p
+{
+	text-align: left;
+}
+.footer
+{
+    text-align: center;
+	float:left;
+	width:100%;
+}
+.footer p, .text_box p
+{
+	font-size: 12px;
+}
+#acx_csma_loading
+{
+    background: rgba(1, 1, 1, 0.5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index: 1000;
+}
+#acx_csma_loading .load_1
+{
+    background: url("images/loading.gif") no-repeat scroll 50% 50% transparent;
+    border-radius: 20px 20px 20px 20px;
+    height: 100px;
+    margin-left: -40px;
+	margin-top : -40px;
+	top:40%;
+	left:50%;
+	position: absolute;
+    opacity: 0.6;
+    width: 100px;
+}
+/********************************************
+media query 
+********************************************/
+@media screen and (max-width: 960px)
+{
+
+.form_holder {
+  margin-bottom:32px;
+  margin-top:0px;
+  min-height:auto;
+}
+
+.form_holder, h2
+ {
+    max-width: none;
+    text-align: center;	
+}
+.timer_holder 
+{
+	/* background: #fe7e01; */
+    margin: 0;
+    max-width: none;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+.timer_box
+{
+    width: 100%;
+    margin: 0 0 15px;	
+}
+.timer_box ul 
+{
+    text-align: center;
+}
+.timer_box ul li 
+{
+    display: inline-flex;
+    float: none;
+}
+.text_box, .wrapper, .scmi
+{
+    margin: 0 !important;
+	min-height: 0;
+}
+.text_box p {
+    text-align: center;
+}
+.scmi
+{
+	display: none;
+}
+.scmi ul , .footer
+{
+    text-align: center;
+}
+.mini
+{
+	display: block;
+}
+.footer
+{
+    margin: 20px 0 0;	
+}
+}
+#acx_csma_success ,#acx_csma_invalid ,#acx_csma_error
+{
+  background: #fff none repeat scroll 0 0;
+  padding: 10px 5px;
+  text-align: center;
+  border-radius: 4px;
+  max-width:400px;
+  margin:0 auto;
+}

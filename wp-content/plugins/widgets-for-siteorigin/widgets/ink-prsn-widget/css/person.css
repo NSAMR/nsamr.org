@@ -1,0 +1,52 @@
+.iw-so-person.iw-so-person-fit {
+  text-align: center; }
+  .iw-so-person.iw-so-person-fit .iw-so-person-img {
+    display: inline-block; }
+    .iw-so-person.iw-so-person-fit .iw-so-person-img img {
+      width: auto; }
+
+.iw-so-person .iw-so-person-img {
+  position: relative;
+  margin-bottom: 1em; }
+  .iw-so-person .iw-so-person-img img {
+    vertical-align: top;
+    width: 100%; }
+  .iw-so-person .iw-so-person-img .iw-so-person-ol {
+    border-radius: inherit;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; }
+    .iw-so-person .iw-so-person-img .iw-so-person-ol p {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 100%;
+      padding: 0 15px;
+      opacity: 0;
+      margin: 0 !important;
+      box-sizing: border-box; }
+    .iw-so-person .iw-so-person-img .iw-so-person-ol:hover, .iw-so-person .iw-so-person-img .iw-so-person-ol:focus,
+    .iw-so-person .iw-so-person-img .iw-so-person-ol:hover p,
+    .iw-so-person .iw-so-person-img .iw-so-person-ol:focus p {
+      opacity: 1; }
+
+.iw-so-person .iw-so-person-profiles [class^="sow-icon-"] {
+  font-size: 2em; }
+
+.iw-so-person .iw-so-person-name {
+  margin-top: 0.7em;
+  margin-bottom: 0 !important; }
+
+.iw-so-person .iw-so-person-desig {
+  margin-top: 0;
+  margin-bottom: 0.3em; }
+
+.iw-so-person .iw-so-person-about {
+  margin-bottom: 0; }

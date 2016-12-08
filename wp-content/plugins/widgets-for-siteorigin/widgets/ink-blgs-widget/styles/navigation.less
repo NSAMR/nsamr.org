@@ -1,0 +1,229 @@
+@navi-theme: flat;
+@navi-align: ends;
+@navi-align-pages: center;
+@navi-size: standard;
+@navi-clr: #333;
+@navi-base: #fff;
+@navi-crnr: 0em;
+
+.iw-so-blog-pagination {
+
+	&.iw-so-blog-prev-next {
+		.btn-align() when (@navi-align = left) { text-align: left }
+		.btn-align() when (@navi-align = right) { text-align: right }
+		.btn-align() when (@navi-align = center) { text-align: center; }
+		.btn-align();
+	}
+
+	&.iw-so-blog-paginate {
+		.btn-align-pages() when (@navi-align-pages = left) { text-align: left }
+		.btn-align-pages() when (@navi-align-pages = right) { text-align: right }
+		.btn-align-pages() when (@navi-align-pages = center) { text-align: center; }
+		.btn-align-pages();
+	}
+
+	& .iw-so-blog-previous {
+		.btn-prev() when (@navi-align = ends) { float: left }
+		.btn-prev();
+	}
+
+	& .iw-so-blog-next {
+		.btn-next() when (@navi-align = ends) { float: right }
+		.btn-next();
+	}
+}
+
+.iw-so-nav-links span.current {
+	cursor: pointer;
+	border-radius: @navi-crnr;
+	color: @navi-base;
+	text-decoration: none;
+	opacity: 0.85;
+
+	.current-size() when (@navi-size = tiny) {
+		font-size: 0.75em;
+		padding: 0.625em 1.25em;
+	}
+	.current-size() when (@navi-size = small) {
+		font-size: 0.9em;
+		padding: 0.875em 1.75em;
+	}
+	.current-size() when (@navi-size = standard) {
+		font-size: 1.2em;
+		padding: 1em 2em ;
+	}
+	.current-size() when (@navi-size = large) {
+		font-size: 1.75em;
+		padding: 1.125em 2.25em;
+	}
+	.current-size();
+
+	.current-theme() when (@navi-theme = classic) {
+		.gradient(lighten(@navi-clr, 2%), darken(@navi-clr, 20%), lighten(@navi-clr, 2%));
+		border-color: darken(@navi-clr, 4%) darken(@navi-clr, 6%) darken(@navi-clr, 18%) darken(@navi-clr, 6%);
+		color: @navi-base;
+	}
+	.current-theme() when (@navi-theme = flat) {
+		background: darken(@navi-clr, 7.5%);
+		border-color: darken(@navi-clr, 7.5%);
+	}
+	.current-theme() when (@navi-theme = outline) {
+		background: @navi-clr;
+		color: @navi-base;
+	}
+	.current-theme() when (@navi-theme = threed) {
+		background: lighten(@navi-clr, 10%);
+	}
+	.current-theme() when (@navi-theme = shadow) {
+		background: lighten(@navi-clr, 5%);
+		border-color: lighten(@navi-clr, 5%);
+		.drop-shadow(1px, 1px, 8px, 0.4);
+	}
+	.current-theme() when (@navi-theme = deline) {
+		color: @navi-clr;
+		background: transparent;
+	}
+	.current-theme();
+
+}
+
+.iw-so-navi-btn a {
+
+	border-radius: @navi-crnr;
+	color: @navi-base;
+	text-decoration: none;
+
+	.btn-size() when (@navi-size = tiny) {
+		font-size: 0.75em;
+		padding: 0.625em 1.25em;
+	}
+	.btn-size() when (@navi-size = small) {
+		font-size: 0.9em;
+		padding: 0.875em 1.75em;
+	}
+	.btn-size() when (@navi-size = standard) {
+		font-size: 1.2em;
+		padding: 1em 2em ;
+	}
+	.btn-size() when (@navi-size = large) {
+		font-size: 1.75em;
+		padding: 1.125em 2.25em;
+	}
+	.btn-size();
+
+	.btn-theme() when (@navi-theme = classic) {
+		.gradient(@navi-clr, darken(@navi-clr, 15%), @navi-clr);
+		border: 1px solid;
+		border-color: darken(@navi-clr, 8%) darken(@navi-clr, 10%) darken(@navi-clr, 13%) darken(@navi-clr, 10%);
+	}
+	.btn-theme() when (@navi-theme = flat) {
+		background: @navi-clr;
+		border: 1px solid @navi-clr;
+	}
+	.btn-theme() when (@navi-theme = outline) {
+		background: transparent;
+		border: 2px solid @navi-clr;
+		color: @navi-clr;
+	}
+	.btn-theme() when (@navi-theme = threed) {
+		background: @navi-clr;
+		box-shadow: 0px 5px 0px 0px darken(@navi-clr, 10%);
+	}
+	.btn-theme() when (@navi-theme = shadow) {
+		.drop-shadow(1px, 1px, 4px, 0.4);
+		background: @navi-clr;
+		border: 1px solid @navi-clr;
+	}
+	.btn-theme() when (@navi-theme = deline) {
+		background: @navi-clr;
+		border: 2px solid @navi-clr;
+	}
+	.btn-theme();
+
+	&:hover {
+		.dft-theme() when (@navi-theme = classic) {
+			color: @navi-base;
+		}
+		.dft-theme() when (@navi-theme = flat) {
+			color: @navi-base;
+		}
+		.dft-theme() when (@navi-theme = outline) {
+			color: @navi-clr;
+		}
+		.dft-theme() when (@navi-theme = threed) {
+			color: @navi-base;
+		}
+		.dft-theme() when (@navi-theme = shadow) {
+			color: @navi-base;
+		}
+		.dft-theme() when (@navi-theme = deline) {
+			color: @navi-base;
+		}
+		.dft-theme();
+	}
+}
+.iw-so-navi-btn-hover a {
+	&:hover {
+		color: @navi-base;
+		.btn-hover() when (@navi-theme = classic) {
+			.gradient(lighten(@navi-clr, 2%), darken(@navi-clr, 20%), lighten(@navi-clr, 2%));
+			border-color: darken(@navi-clr, 4%) darken(@navi-clr, 6%) darken(@navi-clr, 18%) darken(@navi-clr, 6%);
+			color: @navi-base;
+		}
+		.btn-hover() when (@navi-theme = flat) {
+			background: darken(@navi-clr, 7.5%);
+			border-color: darken(@navi-clr, 7.5%);
+		}
+		.btn-hover() when (@navi-theme = outline) {
+			background: @navi-clr;
+			color: @navi-base;
+		}
+		.btn-hover() when (@navi-theme = threed) {
+			background: lighten(@navi-clr, 10%);
+		}
+		.btn-hover() when (@navi-theme = shadow) {
+			background: lighten(@navi-clr, 5%);
+			border-color: lighten(@navi-clr, 5%);
+			.drop-shadow(1px, 1px, 8px, 0.4);
+		}
+		.btn-hover() when (@navi-theme = deline) {
+			color: @navi-clr;
+			background: transparent;
+		}
+		.btn-hover();
+	}
+}
+.iw-so-navi-btn-click a {
+	&:active {
+		.btn-active() when (@navi-theme = classic) {
+			.box-shadow(inset 0 3px 25px darken(@navi-clr, 25%));
+		}
+		.btn-active() when (@navi-theme = flat) {
+			background: darken(@navi-clr, 15%);
+			border-color: darken(@navi-clr, 15%);
+		}
+		.btn-active() when (@navi-theme = outline) {
+			background: lighten(@navi-clr, 10%);
+			border-color: lighten(@navi-clr, 10%);
+			color: @navi-base;
+		}
+		.btn-active() when (@navi-theme = threed) {
+			-webkit-transform: translate(0, 5px);
+			-moz-transform: translate(0, 5px);
+			-ms-transform: translate(0, 5px);
+			-o-transform: translate(0, 5px);
+			transform: translate(0, 5px);
+			box-shadow: 0px 1px 0px 0px;
+		}
+		.btn-active() when (@navi-theme = shadow) {
+			background: darken(@navi-clr, 4%);
+			border-color: darken(@navi-clr, 4%);
+		}
+		.btn-active() when (@navi-theme = deline) {
+			color: lighten(@navi-clr, 20%);
+			border-color: lighten(@navi-clr, 20%);
+			background: transparent;
+		}
+		.btn-active();
+	}
+}

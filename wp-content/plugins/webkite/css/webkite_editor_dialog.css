@@ -1,0 +1,26 @@
+iframe.webkite-list-dialog-frame {
+  width: 450px;
+}
+
+#webkite-list-dialog {
+  width:320px;
+  max-width:500px;
+  padding:0 0 0 0;
+  }
+
+#webkite-list-dialog > div {
+  margin:0 9px;
+  padding:0 0 9px;
+  border-bottom:1px solid #DFDFDF;
+  }
+#webkite-list-dialog .webkite-title {color:#444; font-weight:bold; font-size:14px; margin-bottom:3px}
+#webkite-list-dialog .webkite-title + p {margin-top:3px; font-size:12px;}
+#webkite-list-dialog p {color:#777;}
+#webkite-list-dialog select {min-width:340px; max-width:100%;}
+
+#webkite-list-dialog select:disabled {opacity:0.75; cursor:not-allowed;}
+
+.webkite-center {
+  padding-top: 10px;
+  text-align: center;
+}

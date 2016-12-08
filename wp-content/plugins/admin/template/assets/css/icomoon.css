@@ -1,0 +1,202 @@
+/* Font Icons by IcoMoon */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.svg#icomoon') format('svg'),
+		url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-twitter, .icon-google-plus, .icon-linkedin, .icon-delicious, .icon-lastfm, .icon-facebook, .icon-github, .icon-instagram, .icon-stumbleupon, .icon-pinterest, .icon-blogger, .icon-skype, .icon-vimeo2, .icon-cog, .icon-phone, .icon-earth, .icon-flag, .icon-home {
+	font-family: 'icomoon';
+	speak: none;
+	font-size:2em;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	margin:0px 4px 0px 4px;
+	line-height: 1;
+	-webkit-text-stroke: 0.20px;
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.icon-twitter:hover, .icon-google-plus:hover, .icon-linkedin:hover, .icon-delicious:hover, .icon-lastfm:hover, .icon-facebook:hover, .icon-github:hover, .icon-instagram:hover, .icon-stumbleupon:hover, .icon-pinterest:hover, .icon-blogger:hover, .icon-skype:hover, .icon-vimeo2:hover, .icon-cog:hover, .icon-earth:hover, .icon-flag:hover, .icon-home:hover {
+	font-family: 'icomoon';
+	speak: none;
+	font-size:2em;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	margin:0px 4px 0px 4px;
+	color:#B26B97;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.icon-twitter:before {
+	content: "\21";
+}
+.icon-google-plus:before {
+	content: "\22";
+}
+.icon-linkedin:before {
+	content: "\23";
+}
+.icon-delicious:before {
+	content: "\24";
+}
+.icon-lastfm:before {
+	content: "\25";
+}
+.icon-facebook:before {
+	content: "\26";
+}
+.icon-github:before {
+	content: "\27";
+}
+.icon-instagram:before {
+	content: "\28";
+}
+.icon-stumbleupon:before {
+	content: "\29";
+}
+.icon-pinterest:before {
+	content: "\2a";
+}
+.icon-blogger:before {
+	content: "\2b";
+}
+.icon-skype:before {
+	content: "\2c";
+}
+.icon-vimeo2:before {
+	content: "\2d";
+}
+.icon-cog:before {
+	content: "\2e";
+}
+.icon-phone:before {
+	content: "\2f";
+}
+.icon-earth:before {
+	content: "\30";
+}
+.icon-flag:before {
+	content: "\31";
+}
+.icon-home:before {
+	content: "\32";
+}
+/* Nav Icons */
+@font-face {
+	font-family: 'icomoon-nav';
+	src:url('../fonts/icomoon-nav.eot');
+	src:url('../fonts/icomoon-nav.svg#icomoon-nav') format('svg'),
+		url('../fonts/icomoon-nav.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon-nav.ttf') format('truetype'),
+		url('../fonts/icomoon-nav.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon-thumbs-up, .icon-location, .icon-paperplane {
+	font-family: 'icomoon-nav';
+	speak: none;
+	font-size:2em;
+	opacity:1;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-text-stroke: 0.20px;
+	-moz-osx-font-smoothing: grayscale;
+	
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.icon-thumbs-up:hover, .icon-location:hover, .icon-paperplane:hover {
+opacity:0.7;
+
+
+	
+}
+.icon-house, .icon-phone, .icon-heart, .icon-mail {
+	font-family: 'icomoon-nav';
+	speak: none;
+	font-size:1em;
+	
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	}
+
+.icon-house:hover , .icon-phone:hover, .icon-heart:hover, .icon-mail:hover {font-size:1em;}
+.icon-thumbs-up:before {
+	content: "\e601";
+}
+.icon-paperplane:before {
+	content: "\e602";
+}
+.icon-compass:before {
+	content: "\e600";
+}
+.icon-location:before {
+	content: "\e603";
+}
+.icon-mail:before {
+	content: "\e604";
+}
+.icon-star:before {
+	content: "\e605";
+}
+.icon-house:before {
+	content: "\e606";
+}
+.icon-phone:before {
+	content: "\e607";
+}
+.icon-heart:before {
+	content: "\e608";
+}
