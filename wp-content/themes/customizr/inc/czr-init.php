@@ -382,7 +382,7 @@ if ( ! class_exists( 'CZR___' ) ) :
     * @since  3.3+
     */
     function czr_fn_is_customize_preview_frame() {
-      return ! is_admin() && isset($_REQUEST['wp_customize']);
+      return is_customize_preview() || ( ! is_admin() && isset($_REQUEST['customize_messenger_channel']) );
     }
 
 
@@ -771,6 +771,11 @@ if ( ! class_exists( 'CZR_init' ) ) :
             'tc_xing'           => array(
                                     'link_title'    => __( 'Follow me on Xing' , 'customizr' ),
                                     'option_label'  => __( 'Xing profile url' , 'customizr' ),
+                                    'default'       => null
+                                  ),
+            'tc_snapchat'       => array(
+                                    'link_title'    => __( 'Contact me on Snapchat' , 'customizr' ),
+                                    'option_label'  => __( 'Snapchat profile url' , 'customizr' ),
                                     'default'       => null
                                   )
           );//end of social array
@@ -2387,10 +2392,6 @@ if ( ! class_exists( 'CZR_plugins_compat' ) ) :
                }
                .tc-wc-menu .widget_shopping_cart .product_list_widget li a.remove {
                  position: relative; float: left; top: auto; margin-right: 0.2em;
-               }
-               /* hack for the first letter issue */
-               .tc-wc-menu .count:before {
-                 content: '';
                }
                .tc-wc-menu .widget_shopping_cart .product_list_widget {
                  max-height: 10em;
@@ -5560,7 +5561,7 @@ if ( ! class_exists( 'CZR_utils' ) ) :
       /**
       * Init CZR_utils class properties after_setup_theme
       * Fixes the bbpress bug : Notice: bbp_setup_current_user was called incorrectly. The current user is being initialized without using $wp->init()
-      * tc_get_default_options uses is_user_logged_in() => was causing the bug
+      * czr_fn_get_default_options uses is_user_logged_in() => was causing the bug
       * hook : after_setup_theme
       *
       * @package Customizr
@@ -5717,18 +5718,17 @@ if ( ! class_exists( 'CZR_utils' ) ) :
           return apply_filters( 'tc_default_options', $def_options );
 
         //Always update/generate the default option when (OR) :
-        // 1) user is logged in
+        // 1) current user can edit theme options
         // 2) they are not defined
         // 3) theme version not defined
         // 4) versions are different
-        if ( is_user_logged_in() || empty($def_options) || ! isset($def_options['ver']) || 0 != version_compare( $def_options['ver'] , CUSTOMIZR_VER ) ) {
+        if ( current_user_can('edit_theme_options') || empty($def_options) || ! isset($def_options['ver']) || 0 != version_compare( $def_options['ver'] , CUSTOMIZR_VER ) ) {
           $def_options          = $this -> czr_fn_generate_default_options( CZR_utils_settings_map::$instance -> czr_fn_get_customizer_map( $get_default_option = 'true' ) , 'tc_theme_options' );
           //Adds the version in default
           $def_options['ver']   =  CUSTOMIZR_VER;
 
-          $_db_opts['defaults'] = $def_options;
-          //writes the new value in db
-          update_option( "tc_theme_options" , $_db_opts );
+          //writes the new value in db (merging raw options with the new defaults ).
+          $this -> czr_fn_set_option( 'defaults', $def_options, 'tc_theme_options' );
         }
         return apply_filters( 'tc_default_options', $def_options );
       }
@@ -5783,8 +5783,6 @@ if ( ! class_exists( 'CZR_utils' ) ) :
           //$__options        = array_intersect_key( $__options, $defaults );
         return $__options;
       }
-
-
 
 
       /**
@@ -5858,7 +5856,12 @@ if ( ! class_exists( 'CZR_utils' ) ) :
       */
       function czr_fn_set_option( $option_name , $option_value, $option_group = null ) {
         $option_group           = is_null($option_group) ? CZR___::$tc_option_group : $option_group;
-        $_options               = $this -> czr_fn_get_theme_options( $option_group );
+        /*
+        * Get raw theme options:
+        * avoid filtering
+        * avoid merging with defaults
+        */
+        $_options               = czr_fn_get_raw_option( $option_group );
         $_options[$option_name] = $option_value;
 
         update_option( $option_group, $_options );
@@ -6694,7 +6697,7 @@ if ( ! class_exists( 'CZR_resources' ) ) :
           'dependencies' => array( 'tc-js-arraymap-proto', 'jquery', 'tc-js-params' )
         ),
         'tc-img-original-sizes' => array(
-          'path' => 'inc/assets/js/jquery-plugins/',
+          'path' => 'assets/front/js/jquery-plugins/',
           'files' => array( 'jqueryimgOriginalSizes.js' ),
           'dependencies' => array('jquery')
         ),
@@ -6714,27 +6717,27 @@ if ( ! class_exists( 'CZR_resources' ) ) :
           'dependencies' => array('jquery')
         ),
         'tc-dropcap' => array(
-          'path' => 'inc/assets/js/jquery-plugins/',
+          'path' => 'assets/front/js/jquery-plugins/',
           'files' => array( 'jqueryaddDropCap.js' ),
           'dependencies' => array( 'tc-js-arraymap-proto', 'jquery' , 'tc-js-params', 'tc-bootstrap', 'underscore' )
         ),
         'tc-img-smartload' => array(
-          'path' => 'inc/assets/js/jquery-plugins/',
+          'path' => 'assets/front/js/jquery-plugins/',
           'files' => array( 'jqueryimgSmartLoad.js' ),
           'dependencies' => array( 'tc-js-arraymap-proto', 'jquery' , 'tc-js-params', 'tc-bootstrap', 'underscore' )
         ),
         'tc-ext-links' => array(
-          'path' => 'inc/assets/js/jquery-plugins/',
+          'path' => 'assets/front/js/jquery-plugins/',
           'files' => array( 'jqueryextLinks.js' ),
           'dependencies' => array( 'tc-js-arraymap-proto', 'jquery' , 'tc-js-params', 'tc-bootstrap', 'underscore' )
         ),
         'tc-parallax' => array(
-          'path' => 'inc/assets/js/jquery-plugins/',
+          'path' => 'assets/front/js/jquery-plugins/',
           'files' => array( 'jqueryParallax.js' ),
           'dependencies' => array( 'tc-js-arraymap-proto', 'jquery' , 'tc-js-params', 'tc-bootstrap', 'underscore' )
         ),
         'tc-center-images' => array(
-          'path' => 'inc/assets/js/jquery-plugins/',
+          'path' => 'assets/front/js/jquery-plugins/',
           'files' => array( 'jqueryCenterImages.js' ),
           'dependencies' => array( 'tc-js-arraymap-proto', 'jquery' , 'tc-js-params', 'tc-img-original-sizes', 'tc-bootstrap', 'underscore' )
         ),
@@ -6947,17 +6950,27 @@ if ( ! class_exists( 'CZR_resources' ) ) :
       if ( false == CZR_utils::$inst -> czr_fn_opt( 'tc_font_awesome_icons' ) )
         return;
 
-      $_path = apply_filters( 'tc_font_icons_path' , TC_BASE_URL . 'inc/assets/css' );
+      /*
+      * Not using add_query_var here in order to keep the code simple
+      */
+      $_path            = apply_filters( 'tc_font_icons_path' , TC_BASE_URL . 'inc/assets/css' );
+      $_version         = apply_filters( 'tc_font_icons_version', true ) ? '4.7.0' : '';
+      $_ie_query_var    = $_version ? "&v={$_version}" : '';
+      $_query_var       = $_version ? "?v={$_version}" : '';
+
+
       ob_start();
         ?>
         @font-face {
           font-family: 'FontAwesome';
-          src:url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.eot');
-          src:url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-              url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.woff2') format('woff2'),
-              url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.woff') format('woff'),
-              url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.ttf') format('truetype'),
-              url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+          src:url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.eot<?php echo $_query_var ?>' ) );
+          src:url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.eot?#iefix<?php echo $_ie_query_var ?>') format('embedded-opentype'),
+              url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.woff2<?php echo $_query_var ?>') format('woff2'),
+              url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.woff<?php echo $_query_var ?>') format('woff'),
+              url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.ttf<?php echo $_query_var ?>') format('truetype'),
+              url('<?php echo $_path ?>/fonts/fonts/fontawesome-webfont.svg<?php echo $_query_var ?>#fontawesomeregular') format('svg');
+          font-weight: normal;
+          font-style: normal;
         }
         <?php
       $_font_css = ob_get_contents();
@@ -8358,6 +8371,10 @@ if ( ! class_exists( 'CZR_prevdem' ) ) :
       add_filter('tc_social_in_header' , array( $this, 'czr_fn_set_header_socials' ) );
       add_filter('tc_tagline_display' , array( $this, 'czr_fn_set_header_tagline' ) );
 
+      //FRONT PAGE
+      add_filter('option_show_on_front', array( $this, 'czr_fn_set_front_page_content' ), 99999 );
+      add_filter('pre_option_show_on_front', array( $this, 'czr_fn_set_front_page_content' ), 99999 );
+
       //FEATURED PAGES
       add_filter('fp_img_src', array( $this, 'czr_fn_set_fp_img_src'), 100 );
       add_filter('tc_fp_title', array( $this, 'czr_fn_set_fp_title'), 100, 3 );
@@ -8436,6 +8453,13 @@ if ( ! class_exists( 'CZR_prevdem' ) ) :
         return 'Customizr';
     }
 
+
+    /* ------------------------------------------------------------------------- *
+     *  Front page
+    /* ------------------------------------------------------------------------- */
+    function czr_fn_set_front_page_content( $value ) {
+        return 'posts';
+    }
 
 
     /* ------------------------------------------------------------------------- *

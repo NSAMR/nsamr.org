@@ -41,6 +41,22 @@ The exceptions to this license are as follows:
 
 
 #######################  Changelog ######################
+= 3.4.36 December 6th 2016 =
+* improved : compatibility with WP 4.7
+* added : minor UI change in the customizer, new home button added
+
+= 3.4.35 November 17th 2016 =
+* fixed : display dropdown submenu caret only for relevant '.nav' elements
+* improved : update FontAwesome to v4.7.0 + add Snapchat social link
+
+= 3.4.34 October 28th 2016 =
+* fixed : compatibility issue with php7
+* fixed : better check for is customize preview()
+* fixed : correctly instantiate front classes in admin building slider of posts fixes #662
+* improved : add requestAnimationFrame polyfill required by several jquery-plugins fixes #665
+* improved : get rid of the outdated menu item first letter styling
+* improved : Imp: add back langpacks completed on translate.wordpress.org. Needed for Customizr-Pro. note: german GTE considered our german translation as formal german. The current de_DE.po(mo) is just a copy of the de_DE_formal.po(mo) pack.
+
 = 3.4.33 October 17th 2016 =
 * fixed : compatibility problems with plugins using the WP tinyMCE editor. Example : Black studio tinyMCE
 

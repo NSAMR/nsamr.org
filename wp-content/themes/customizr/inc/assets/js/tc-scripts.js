@@ -2838,9 +2838,11 @@ var TCParams = TCParams || {};
  * Replace all img src placeholder in the $element by the real src on scroll window event
  * Bind a 'smartload' event on each transformed img
  *
- * Note : the data-src attr has to be pre-processed before the actual page load
+ * Note : the data-src (data-srcset) attr has to be pre-processed before the actual page load
  * Example of regex to pre-process img server side with php :
  * preg_replace_callback('#<img([^>]+?)src=[\'"]?([^\'"\s>]+)[\'"]?([^>]*)>#', 'regex_callback' , $_html)
+ *
+ * (c) 2016 Nicolas Guillaume, Nice, France
  *
  *
  * Example of gif 1px x 1px placeholder :
@@ -2849,6 +2851,8 @@ var TCParams = TCParams || {};
  * inspired by the work of Luís Almeida
  * http://luis-almeida.github.com/unveil
  *
+ * Requires requestAnimationFrame polyfill:
+ * http://paulirish.com/2011/requestanimationframe-for-smart-animating/
  * =================================================== */
 ;(function ( $, window, document, undefined ) {
   //defaults
@@ -2902,11 +2906,10 @@ var TCParams = TCParams || {};
     if ( ! this.doingAnimation ) {
       this.doingAnimation = true;
       window.requestAnimationFrame(function() {
-        //self.parallaxMe();
-        self._maybe_trigger_load( $_imgs , _evt );        
+        self._maybe_trigger_load( $_imgs , _evt );
         self.doingAnimation = false;
       });
-    }    
+    }
   };
 
 
@@ -3441,25 +3444,11 @@ var TCParams = TCParams || {};
  *
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  *
- *
+ * Requires requestAnimationFrame polyfill:
+ * http://paulirish.com/2011/requestanimationframe-for-smart-animating/
  *
  * =================================================== */
 ;(function ( $, window, document, undefined ) {
-  /*
-  * In order to handle a smooth scroll
-  * ( inspired by jquery.waypoints and smoothScroll.js )
-  * Maybe use this -> https://gist.github.com/paulirish/1579671
-  */
-  var czrParallaxRequestAnimationFrame = function(callback) {
-    var requestFn = ( czrapp && czrapp.requestAnimationFrame) ||
-      window.requestAnimationFrame ||
-      window.mozRequestAnimationFrame ||
-      window.webkitRequestAnimationFrame ||
-      function( callback ) { window.setTimeout(callback, 1000 / 60); };
-
-    requestFn.call(window, callback);
-  };
-
   //defaults
   var pluginName = 'czrParallax',
       defaults = {
@@ -3596,7 +3585,35 @@ var TCParams = TCParams || {};
       });
   };
 
-})( jQuery, window, document );// Customizr version of Galambosi's SmoothScroll
+})( jQuery, window, document );// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+// http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
+
+// requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel
+
+// MIT license
+(function() {
+    var lastTime = 0;
+    var vendors = ['ms', 'moz', 'webkit', 'o'];
+    for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
+        window.requestAnimationFrame = window[vendors[x]+'RequestAnimationFrame'];
+        window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame']
+                                   || window[vendors[x]+'CancelRequestAnimationFrame'];
+    }
+
+    if (!window.requestAnimationFrame)
+        window.requestAnimationFrame = function(callback, element) {
+            var currTime = new Date().getTime();
+            var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+            lastTime = currTime + timeToCall;
+            return window.setTimeout(function() { callback(currTime + timeToCall); },
+              timeToCall);
+        };
+
+    if (!window.cancelAnimationFrame)
+        window.cancelAnimationFrame = function(id) {
+            clearTimeout(id);
+        };
+}());// Customizr version of Galambosi's SmoothScroll
 
 // SmoothScroll for websites v1.3.8 (Balazs Galambosi)
 // Licensed under the terms of the MIT license.

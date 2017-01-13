@@ -58,7 +58,7 @@ if ( ! class_exists( 'CZR_admin_init' ) ) :
       if ( wp_is_post_revision( $post_id ) || ( ! empty($post) && 'auto-draft' == $post->post_status ) )
         return;
 
-      if ( ! class_exists( 'CZR_post_thumbnails' ) ) {
+      if ( ! class_exists( 'CZR_post_thumbnails' ) || ! is_object(CZR_post_thumbnails::$instance) ) {
         CZR___::$instance -> czr_fn_req_once( 'inc/czr-front.php' );
         new CZR_post_thumbnails();
       }
@@ -81,11 +81,11 @@ if ( ! class_exists( 'CZR_admin_init' ) ) :
       if ( wp_is_post_revision( $post_id ) || ( ! empty($post) && 'auto-draft' == $post->post_status ) )
         return;
 
-      if ( ! class_exists( 'CZR_post_thumbnails' ) ) {
+      if ( ! class_exists( 'CZR_post_thumbnails' ) || ! is_object(CZR_post_thumbnails::$instance) ) {
         CZR___::$instance -> czr_fn_req_once( 'inc/czr-front.php' );
         new CZR_post_thumbnails();
       }
-      if ( ! class_exists( 'CZR_slider' ) ) {
+      if ( ! class_exists( 'CZR_slider' ) || ! is_object(CZR_slider::$instance) ) {
         CZR___::$instance -> czr_fn_req_once( 'inc/czr-front.php' );
         new CZR_slider();
       }
@@ -445,10 +445,10 @@ if ( ! class_exists( 'CZR_admin_page' ) ) :
       self::$instance =& $this;
       //add welcome page in menu
       add_action( 'admin_menu'             , array( $this , 'czr_fn_add_welcome_page' ));
-      //changelog
-      add_action( '__after_welcome_panel'  , array( $this , 'czr_fn_extract_changelog' ));
       //config infos
-      add_action( '__after_welcome_panel'  , array( $this , 'czr_fn_config_infos' ), 20 );
+      add_action( '__after_welcome_panel'  , array( $this , 'czr_fn_config_infos' ), 10 );
+      //changelog
+      add_action( '__after_welcome_panel'  , array( $this , 'czr_fn_print_changelog' ), 20);
       //build the support url
       $this -> support_url = CZR___::czr_fn_is_pro() ? esc_url( sprintf('%ssupport' , CZR_WEBSITE ) ) : esc_url('wordpress.org/support/theme/customizr');
       //fix #wpfooter absolute positioning in the welcome and about pages
@@ -668,46 +668,40 @@ if ( ! class_exists( 'CZR_admin_page' ) ) :
    * @package Customizr
    * @since Customizr 3.0.5
    */
-    function czr_fn_extract_changelog() {
-      if( ! file_exists(TC_BASE."readme.txt") ) {
+    function czr_fn_print_changelog() {
+      if ( isset($_GET['help']) )
+        return;
+      if( ! file_exists( TC_BASE . "readme.txt" ) ) {
         return;
       }
-      if( ! is_readable(TC_BASE."readme.txt") ) {
+      if( ! is_readable( TC_BASE . "readme.txt" ) ) {
         echo '<p>The changelog in readme.txt is not readable.</p>';
         return;
       }
 
-      ob_start();
-      $stylelines = explode("\n", implode('', file(TC_BASE."readme.txt")));
+      $html = '';
+      $stylelines = explode("\n", implode('', file( TC_BASE . "readme.txt" ) ) );
       $read = false;
-      $i = 0;
+      $is_title = false;
 
       foreach ($stylelines as $line) {
-        //echo 'i = '.$i.'|read = '.$read.'pos = '.strpos($line, '= ').'|line :'.$line.'<br/>';
-        //we stop reading if we reach the next version change
-        if ($i == 1 && strpos($line, '= ') === 0 ) {
-          $read = false;
-          $i = 0;
-        }
-        //we write the line if between current and previous version
-        if ($read) {
-          echo $line.'<br/>';
-        }
-        //we skip all lines before the current version changelog
-        if ($line != strpos($line, '= '.CUSTOMIZR_VER)) {
-          if ($i == 0) {
-            $read = false;
-          }
-        }
-        //we begin to read after current version title
-        else {
-          $read = true;
-          $i = 1;
-        }
-      }
-      $html = ob_get_contents();
-      if ($html) ob_end_clean();
+          $is_title = 0 === strpos($line, '= ');
 
+          //we start reading after current version title
+          if ( 0 === strpos($line, '= '. CUSTOMIZR_VER) ) {
+            $read = true;
+          }
+
+          if ( ! $read )
+            continue;
+
+          if ( $is_title ) {
+            $html .= sprintf( '<strong>%1$s</strong><br/>', esc_attr( $line ) );
+          } else {
+            $html .= sprintf( '<i>%1$s</i><br/>', esc_attr( $line ) );
+          }
+      }
+      do_action('__before_changelog')
       ?>
       <div id="customizr-changelog" class="changelog">
         <h3><?php printf( __( 'Changelog in version %1$s' , 'customizr' ) , CUSTOMIZR_VER ); ?></h3>
@@ -773,7 +767,7 @@ foreach ( $plugins as $plugin_path ) {
 endif;
 //GET MYSQL VERSION
 global $wpdb;
-$mysql_ver =  ( ! empty( $wpdb->use_mysqli ) && $wpdb->use_mysqli ) ? @mysqli_get_server_info( $wpdb->dbh ) : @mysql_get_server_info();
+$mysql_ver =  ( ! empty( $wpdb->use_mysqli ) && $wpdb->use_mysqli ) ? @mysqli_get_server_info( $wpdb->dbh ) : '';
 ?>
 
 PHP Version:              <?php echo PHP_VERSION . "\n"; ?>
@@ -781,7 +775,6 @@ MySQL Version:            <?php echo $mysql_ver . "\n"; ?>
 Web Server Info:          <?php echo $_SERVER['SERVER_SOFTWARE'] . "\n"; ?>
 
 WordPress Memory Limit:   <?php echo ( $this -> czr_fn_let_to_num( WP_MEMORY_LIMIT )/( 1024 ) )."MB"; ?><?php echo "\n"; ?>
-PHP Safe Mode:            <?php echo ini_get( 'safe_mode' ) ? "Yes" : "No\n"; ?>
 PHP Memory Limit:         <?php echo ini_get( 'memory_limit' ) . "\n"; ?>
 PHP Upload Max Size:      <?php echo ini_get( 'upload_max_filesize' ) . "\n"; ?>
 PHP Post Max Size:        <?php echo ini_get( 'post_max_size' ) . "\n"; ?>

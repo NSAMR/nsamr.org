@@ -60,8 +60,12 @@ if ( ! class_exists( 'CZR_customize' ) ) :
     */
     function czr_fn_alter_wp_customizer_settings( $wp_customize ) {
       //CHANGE BLOGNAME AND BLOGDESCRIPTION TRANSPORT
-      $wp_customize -> get_setting( 'blogname' )->transport = 'postMessage';
-      $wp_customize -> get_setting( 'blogdescription' )->transport = 'postMessage';
+      if ( is_object( $wp_customize -> get_setting( 'blogname' ) ) ) {
+        $wp_customize -> get_setting( 'blogname' )->transport = 'postMessage';
+      }
+      if ( is_object( $wp_customize -> get_setting( 'blogdescription' ) ) ) {
+        $wp_customize -> get_setting( 'blogdescription' )->transport = 'postMessage';
+      }
 
 
       //IF WP VERSION >= 4.3 AND SITE_ICON SETTING EXISTS
@@ -138,6 +142,20 @@ if ( ! class_exists( 'CZR_customize' ) ) :
 
         $_priority = $_priority + 10;
       }//foreach
+
+      //REMOVE CUSTOM CSS ADDED IN 4.7 => IT WILL REPLACE THE CUSTOMIZR BUILT-IN ONE SOON
+      //But the migration is not coded yet
+      $custom_css_setting_id = sprintf( 'custom_css[%s]', get_stylesheet() );
+      if ( is_object( $wp_customize -> get_setting( $custom_css_setting_id ) ) ) {
+        $wp_customize -> remove_setting( $custom_css_setting_id );
+      }
+      if ( is_object( $wp_customize -> get_control( 'custom_css' ) ) ) {
+        $wp_customize -> remove_control( 'custom_css' );
+      }
+      if ( is_object( $wp_customize -> get_section( 'custom_css' ) ) ) {
+        $wp_customize -> remove_section( 'custom_css' );
+      }
+
     }
 
 
@@ -470,7 +488,8 @@ if ( ! class_exists( 'CZR_customize' ) ) :
             'translatedStrings'    => array(
               'postSliderNote' => __( "This option generates a home page slider based on your last posts, starting from the most recent or the featured (sticky) post(s) if any.", "customizr" ),
               'faviconNote' => __( "Your favicon is currently handled with an old method and will not be properly displayed on all devices. You might consider to re-upload your favicon with the new control below." , 'customizr')
-            )
+            ),
+            'isThemeSwitchOn' => isset( $_GET['theme'])
 	        )
 	      )
       );
@@ -527,13 +546,13 @@ if ( ! class_exists( 'CZR_customize' ) ) :
         <div id="tc-donate-customizer">
           <a href="#" class="tc-close-request button" title="<?php _e('dismiss' , 'customizr'); ?>">X</a>
             <?php
-              printf('<h3>%1$s <a href="%2$s" target="_blank">Nicolas</a>%3$s.</h3>',
+              printf('<h3>%1$s <a href="%2$s" target="_blank">Nicolas</a>%3$s :).</h3>',
                 __( "Hi! This is" , 'customizr' ),
-                esc_url('presscustomizr.com/about/'),
+                esc_url('twitter.com/presscustomizr'),
                 __( ", developer of the Customizr theme", 'customizr' )
               );
               printf('<span class="tc-notice">%1$s</span>',
-                __( "I'm doing my best to make Customizr the perfect free theme for you. If you think it helped you in any way to build a better web presence, please support it's continued development with a donation !" , 'customizr' )
+                __( "I'm doing my best to make Customizr the perfect free theme for you. If you think it helped you in any way to build a better web presence, please support it's continued development with a donation of $20, $50, ..." , 'customizr' )
               );
               printf('<a class="tc-donate-link" href="%1$s" target="_blank" rel="nofollow"><img src="%2$s" alt="%3$s"></a>',
                 esc_url('paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=8CTH6YFDBQYGU'),
